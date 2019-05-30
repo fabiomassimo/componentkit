@@ -1,0 +1,24 @@
+{
+  "scripts": {
+    "examples": "docusaurus-examples",
+    "publish-gh-pages": "docusaurus-publish",
+    "write-translations": "docusaurus-write-translations",
+    "version": "docusaurus-version",
+    "rename-version": "docusaurus-rename-version",
+    "publish-wiki": "node scripts/publish-wiki.js",
+    "start": "docusaurus start",
+    "build": "docusaurus build",
+    "swizzle": "docusaurus swizzle",
+    "deploy": "docusaurus deploy"
+  },
+  "devDependencies": {
+    "@docusaurus/core": "2.0.0-alpha.18",
+    "@docusaurus/preset-classic": "2.0.0-alpha.18",
+    "react": "next",
+    "react-dom": "next"
+  },
+  "dependencies": {
+    "prop-types": "^15.7.2",
+    "styled-components": "^4.2.0"
+  }
+}

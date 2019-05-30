@@ -26,3 +26,9 @@ appledoc
 # Carthage
 Carthage/Checkouts
 Carthage/Build
+
+# Docusaurus
+website/build/
+website/.cache-loader/
+website/.docusaurus/
+website/node_modules/
