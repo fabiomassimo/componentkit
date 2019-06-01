@@ -6,7 +6,7 @@ import Link from '@docusaurus/Link';
 import classnames from 'classnames';
 
 import styles from './index.module.css';
-import './page.css';
+import './index.css';
 
 function Home() {
   const context = useDocusaurusContext();
