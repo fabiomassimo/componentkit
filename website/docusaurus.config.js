@@ -1,45 +1,30 @@
 const siteConfig = {
-  title: "ComponentKit",
-  tagline: "A declarative UI framework for iOS",
-  url: "https://componentkit.org",
-  baseUrl: "/",
-  projectName: "componentkit",
-  organizationName: "facebook",
+  title: 'ComponentKit',
+  tagline: 'A declarative UI framework for iOS',
+  url: 'https://componentkit.org',
+  baseUrl: '/',
+  projectName: 'componentkit',
+  organizationName: 'facebook',
   themeConfig: {
-    headerLinks: [
-      { url: "docs/getting-started", label: "Docs" },
-    ],
-    footer: {
-      style: 'dark',
+    navbar: {
+      title: 'ComponentKit',
+      logo: {
+        alt: 'ComponentKit Logo',
+        src: 'img/ck_logo.png',
+      },
       links: [
+        { to: 'docs/introduction', label: 'Docs', position: 'right' },
+        { to: 'api', label: 'API', position: 'right' },
+        { to: 'support', label: 'Support', position: 'right' },
         {
-          title: 'Docs',
-          items: [
-            {
-              label: 'Getting Started',
-              to: 'docs/getting-started',
-            },
-          ],
-        },
-        {
-          title: 'Community',
-          items: [
-            {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
-            },
-          ],
-        },
-        {
-          title: 'Social',
-          items: [
-            {
-              label: 'Blog',
-              to: 'blog',
-            }
-          ],
+          href: 'https://github.com/facebook/componentkit',
+          label: 'GitHub',
+          position: 'right',
         },
       ],
+    },
+    footer: {
+      style: 'dark',
       logo: {
         alt: 'Facebook Open Source Logo',
         src: 'https://docusaurus.io/img/oss_logo.png',
@@ -47,17 +32,17 @@ const siteConfig = {
       copyright: `Copyright © ${new Date().getFullYear()} Facebook, Inc.`,
     },
   },
-  favicon: "img/favicon/favicon.ico",
+  favicon: 'img/favicon/favicon.ico',
   presets: [
     [
-      "@docusaurus/preset-classic",
+      '@docusaurus/preset-classic',
       {
         docs: {
-          sidebarPath: require.resolve("./sidebars.js")
-        }
-      }
-    ]
-  ]
+          sidebarPath: require.resolve('./sidebars.js'),
+        },
+      },
+    ],
+  ],
 };
 
 module.exports = siteConfig;

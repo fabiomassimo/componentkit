@@ -1,0 +1,9 @@
+.featureDescription {
+  line-height: 1.625rem;
+}
+
+.featureImageColumn {
+  align-items: center;
+  display: flex;
+  height: 100%;
+}
