@@ -2,6 +2,7 @@ import React from 'react';
 import Layout from '@theme/Layout';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import withBaseUrl from '@docusaurus/withBaseUrl';
+import Link from '@docusaurus/Link';
 import classnames from 'classnames';
 
 import styles from './index.module.css';
@@ -10,27 +11,37 @@ import './page.css';
 function Home() {
   const context = useDocusaurusContext();
   const { siteConfig = {} } = context;
-
   const { title, tagline } = siteConfig;
 
   return (
     <Layout title={title}>
-      <div className="hero hero--primary">
+      <div className={classnames('hero', 'hero--primary', styles.heroTilted)}>
         <div className="container">
           <div className="row">
-            <div className="col">
+            <div className="col padding-top--lg">
               <h1 className="hero__title">{tagline}</h1>
               <p className="hero__subtitle">
                 ComponentKit is an Objective-C++ view framework for iOS that is
                 heavily inspired by React.
               </p>
               <div>
-                <button className="button button--secondary button--lg margin-right--md">
+                <Link
+                  className={classnames(
+                    'button button--secondary button--lg margin-right--md',
+                    styles.ctaButton,
+                  )}
+                  to={withBaseUrl('docs/getting-started')}
+                >
                   Get Started
-                </button>
-                <button className="button button--secondary button--outline button--lg">
+                </Link>
+                <Link
+                  className={classnames(
+                    'button button--secondary button--outline button--lg',
+                    styles.ctaButtonSecondary,
+                  )}
+                >
                   Learn More
-                </button>
+                </Link>
               </div>
             </div>
             <div className="col text--center">

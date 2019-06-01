@@ -13,7 +13,7 @@ const siteConfig = {
         src: 'img/ck_logo.png',
       },
       links: [
-        { to: 'docs/introduction', label: 'Docs', position: 'right' },
+        { to: 'docs/getting-started', label: 'Docs', position: 'right' },
         { to: 'api', label: 'API', position: 'right' },
         { to: 'support', label: 'Support', position: 'right' },
         {

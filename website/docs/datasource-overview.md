@@ -2,7 +2,7 @@
 title: Overview
 ---
 
-import StaticImage from "../theme/components/Image"
+import Image from "../theme/components/Image"
 
 ComponentKit really shines when used with a `UICollectionView`.
 
@@ -16,7 +16,7 @@ Who hasn't had bugs with cell reuse? In ComponentKit, the declarative nature of 
 
 Automatic and optimized reuse is already great for performance. But also, because generating a component and laying it out is just a **succession of pure functions working with immutable data** this operation can be very **easily moved to the background**.
 
-As a result, the list view infrastructure provided by ComponentKit only spends a minimal amount of time in the main thread. No more stutters due to complex view  hierarchies or expensive text layout!
+As a result, the list view infrastructure provided by ComponentKit only spends a minimal amount of time in the main thread. No more stutters due to complex view hierarchies or expensive text layout!
 
 ## The data sources
 
@@ -27,7 +27,7 @@ ComponentKit includes a standard data source stack dedicated to render component
 `CKDataSource` is at the core of the list view infrastructure. Instances of this class are agnostic to the `UICollectionView` API. The role of a `CKDataSource` is to:
 
 1. Take as input changesets containing commands and models.
-*e.g: "Insert at index 0 in section 1 the item representing ModelA".
+   \*e.g: "Insert at index 0 in section 1 the item representing ModelA".
 2. **Generate and layout in the background** the components associated to those changes.
 3. Output a changeset along with handles to the generated components so that it can be used with a `UITableView` or a `UICollectionView`
 
@@ -44,7 +44,7 @@ The UIKit way to add content to a collection view is:
 1. Tell the `UICollectionView` to add/insert/update rows or sections.
 2. Synchronously, the `UICollectionView` asks its data source for number of rows, sections and layout info.
 3. Depending on whether or not the updated index paths are visible the `UICollectionView` will synchronously call `cellForItemAtIndexPath:`.
-3. Finally, the data source returns a configured cell for this index path.
+4. Finally, the data source returns a configured cell for this index path.
 
 `CKCollectionViewTransactionalDataSource` uses an idiom that is more "reactive":
 
@@ -54,4 +54,4 @@ The UIKit way to add content to a collection view is:
 
 Conceptually, we now have a one directional data flow. Obviously the back and forth between the `UICollectionView` and the `CKCollectionViewTransactionalDataSource` still happens but it is now hidden.
 
-<StaticImage src="assets/datasource-overview.png" alt="CKCollectionViewTransactionalDataSource overview" width ="518" height="180" />
+<Image src="assets/datasource-overview.png" alt="CKCollectionViewTransactionalDataSource overview" width ="518" height="180" />

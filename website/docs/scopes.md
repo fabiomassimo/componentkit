@@ -2,15 +2,15 @@
 title: Scopes
 ---
 
-import StaticImage from '../theme/components/Image.js'
+import Image from '../theme/components/Image.js'
 
 In the following component hierarchy ComponentKit has no way to distinguish the three `ListItem` components:
 
-<StaticImage src="assets/tree.png" width="367" height="124" alt="Component Tree" />
+<Image src="assets/tree.png" width="367" height="124" alt="Component Tree" />
 
 ComponentKit needs a way to uniquely identify each `ListItem`. Particularly as the component hierarchy is rebuilt over time:
 
-<StaticImage src="assets/tree-ids.png" width="367" height="124" alt="Component Tree with IDs" />
+<Image src="assets/tree-ids.png" width="367" height="124" alt="Component Tree with IDs" />
 
 Scopes give ComponentKit the ability to assign any component with a persistent identity: _regardless of how many times a component is created it will always acquire the same scope_. This behavior is required in the following three situations:
 
@@ -78,7 +78,7 @@ ComponentKit's keys are an [analogous to the concept of the same name in React](
 
 ## Scope collisions
 
-Scopes must be uniquely identifiable otherwise ComponentKit will be unable to reliably associate a component with its scope. When ComponentKit cannot uniquely identify two or more scopes then it has encountered a __scope collision__ and an assertion is raised. To avoid a scope collision either:
+Scopes must be uniquely identifiable otherwise ComponentKit will be unable to reliably associate a component with its scope. When ComponentKit cannot uniquely identify two or more scopes then it has encountered a **scope collision** and an assertion is raised. To avoid a scope collision either:
 
 1. Define the scope of a component encountering a scope collision with a unique identifier
 2. Define a key in a parent component when creating children encountering a scope collision
