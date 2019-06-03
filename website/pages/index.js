@@ -1,161 +1,134 @@
-import React from "react";
-import Layout from "@theme/Layout";
-import "./index.css";
-import styled, {createGlobalStyle} from 'styled-components';
-import ProjectTitle from '@theme/components/ProjectTitle'
-import ProjectDescription from '@theme/components/ProjectDescription'
-import ButtonContainer from '@theme/components/ButtonContainer'
-import Button from '@theme/components/Button'
-import Image from '@theme/components/Image'
-import Section from '@theme/components/Section'
+import React from 'react';
+import Layout from '@theme/Layout';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
+import withBaseUrl from '@docusaurus/withBaseUrl';
+import Link from '@docusaurus/Link';
+import classnames from 'classnames';
 
-const GlobalStyle = createGlobalStyle`
-  h1, h2 {
-    font-family: 'San Francisco', -apple-system, BlinkMacSystemFont,
-    '.SFNSText-Regular', 'Helvetica Neue', Helvetica, sans-serif;
-  }
-`
-
-const HeaderContainer = styled.div`
-  border: 2px solid yellow;
-  display: flex;
-  height: 60vh;
-  background-color: #00a4b8;
-  justify-content: center;
-  align-items: center;
-  padding: 15px;
-`
-const BodyContainer = styled.div`
-  display: flex;
-  align-items: center;
-  padding: 15px;
-  flex-direction: column;
-  border: 2px solid blue;
-`;
-
-const Wrapper = styled.div`
-  display: flex;
-  width: 100%;
-  min-height: 40vh;
-  max-width: 1200px;
-  align-items: center;
-  border: 2px solid red;
-`
-const Content = styled.div`
-  display: flex;
-  width: 40%;
-  flex-direction: column;
-  align-items: flex-start;
-  border: 5px solid green;
-`
-
-const StyledButtonContainer = styled(ButtonContainer)`
-  display: flex;
-  border: 2px solid blue;
-  width: 100%;
-  justify-content: space-between;
-`;
-
-const StyledWhiteButton = styled(Button)`
-  background-color: #FFF;
-  color: #00A4B8;
-  border-color: transparent;
-  transition: background-color 0.2s ease, color 0.2s ease, border-color 0.2s ease;
-
-  &:hover {
-    background-color: transparent;
-    border-color: #FFF;
-    color: #FFF;
-  }
-`;
-
-const StyledTransparentButton = styled(Button)`
-  background-color: transparent;
-  color: #FFF;
-  border-color: #FFF;
-  transition: color 0.2s ease, border-color 0.2s ease;
-
-  &:hover {
-    color: rgba(255,255,255,0.5);
-    border-color: rgba(255,255,255,0.5);
-  }
-`;
-
-const Logo = styled(Image)`
-  border: 2px solid red;
-  object-fit: cover;
-  width: 35%;
-  margin: 0 auto;
-`;
-
+import styles from './index.module.css';
+import './index.css';
 
 function Home() {
   const context = useDocusaurusContext();
-  const {siteConfig = {}} = context;
-
-  const {
-    baseUrl,
-    title,
-    tagline
-  } = siteConfig;
+  const { siteConfig = {} } = context;
+  const { title, tagline } = siteConfig;
 
   return (
     <Layout title={title}>
-      <GlobalStyle />
-      <HeaderContainer>
-        <Wrapper>
-          <Content>
-            <ProjectTitle>{tagline}</ProjectTitle>
-            <ProjectDescription>
-              ComponentKit is an Objective-C++ view framework for iOS that is heavily inspired by React.
-            </ProjectDescription>
-            <StyledButtonContainer>
-              <StyledWhiteButton location='https://google.com'>Getting Started</StyledWhiteButton>
-              <StyledTransparentButton location='https://google.com'>Learn More</StyledTransparentButton>
-            </StyledButtonContainer>
-          </Content>
-          <Logo src={`${baseUrl}img/ck_hero_logo.png`} alt='ComponentKit Logo'/>
-        </Wrapper>
-      </HeaderContainer>
-      <BodyContainer>
-        <Section
-          title="Declarative"
-          description="
-            ComponentKit uses a declarative API to define UI components.
-            You simply describe the layout for your UI based on a set of immutable inputs and the framework takes care of the rest.
-            With code generation, ComponentKit can perform optimisations for your UI under the hood,
-            while keeping your code simple and easy to maintain."
-          image={{src: `${baseUrl}img/declarative.png`, alt: 'ComponentKit Logo'}}
-        />
-        <Section
-          reverse
-          title="Asynchronous layout"
-          description="
-            ComponentKit can measure and layout your UI ahead of time without blocking the UI thread.
-            By decoupling its layout system from the traditional Android View system, ComponentKit can
-            drop the UI thread constraint imposed by iOS."
-          image={{src: `${baseUrl}img/async_layout.png`, alt: 'ComponentKit Logo'}}
-        />
-        <Section
-          title="Flatter view hierarchies"
-          description="
-            ComponentKit uses Yoga for layout and automatically reduces the number of ViewGroups
-             that your UI contains. This, in addition to ComponentKit's text optimizations, allows
-              for much smaller view hierarchies and improves both memory and scroll performance."
-          image={{src: `${baseUrl}img/flatter_view.png`, alt: 'ComponentKit Logo'}}
-        />
-        <Section
-          reverse
-          title="Fine-grained recycling"
-          description="
-            With ComponentKit, each UI item such as text, image, or video is recycled individually.
-            As soon as an item goes off screen, it can be reused anywhere in the UI and pieced together
-             with other items to create new UI elements. Such recycling reduces the need of having
-             multiple view types and improves memory usage and scroll performance."
-          image={{src: `${baseUrl}img/recycling.png`, alt: 'ComponentKit Logo'}}
-        />
-      </BodyContainer>
+      <div className={classnames('hero', 'hero--primary', styles.heroTilted)}>
+        <div className="container">
+          <div className="row">
+            <div className="col padding-top--lg">
+              <h1 className="hero__title">{tagline}</h1>
+              <p className="hero__subtitle">
+                ComponentKit is an Objective-C++ view framework for iOS that is
+                heavily inspired by React.
+              </p>
+              <div>
+                <Link
+                  className={classnames(
+                    'button button--secondary button--lg margin-right--md',
+                    styles.ctaButton,
+                  )}
+                  to={withBaseUrl('docs/getting-started')}
+                >
+                  Get Started
+                </Link>
+                <Link
+                  className={classnames(
+                    'button button--secondary button--outline button--lg',
+                    styles.ctaButtonSecondary,
+                  )}
+                >
+                  Learn More
+                </Link>
+              </div>
+            </div>
+            <div className="col text--center">
+              <img
+                alt="ComponentKit Hero Logo"
+                src={withBaseUrl('img/ck_hero_logo.png')}
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="container">
+        <div className="row">
+          <div className="col col--5">
+            <div className={styles.featureImageColumn}>
+              <img alt="Declarative" src={withBaseUrl('img/declarative.png')} />
+            </div>
+          </div>
+          <div className="col col--5 col--offset-2 padding-vert--xl">
+            <h2>Declarative</h2>
+            <p className={styles.featureDescription}>
+              ComponentKit uses a declarative API to define UI components. You
+              simply describe the layout for your UI based on a set of immutable
+              inputs and the framework takes care of the rest. With code
+              generation, ComponentKit can perform optimisations for your UI
+              under the hood, while keeping your code simple and easy to
+              maintain.
+            </p>
+          </div>
+        </div>
+        <div className="row">
+          <div className="col col--5 padding-vert--xl">
+            <h2>Asynchronous Layout</h2>
+            <p className={styles.featureDescription}>
+              ComponentKit can measure and layout your UI ahead of time without
+              blocking the UI thread. By decoupling its layout system from the
+              traditional Android View system, ComponentKit can drop the UI
+              thread constraint imposed by iOS.
+            </p>
+          </div>
+          <div className="col col--5 col--offset-2">
+            <div className={styles.featureImageColumn}>
+              <img
+                alt="Asynchronous Layout"
+                src={withBaseUrl('img/async_layout.png')}
+              />
+            </div>
+          </div>
+        </div>
+        <div className="row">
+          <div className="col col--5">
+            <div className={styles.featureImageColumn}>
+              <img
+                alt="Flatter View Hierarchies"
+                src={withBaseUrl('img/flatter_view.png')}
+              />
+            </div>
+          </div>
+          <div className="col col--5 col--offset-2 padding-vert--xl">
+            <h2>Flatter View Hierarchies</h2>
+            <p className={styles.featureDescription}>
+              ComponentKit uses Yoga for layout and automatically reduces the
+              number of ViewGroups that your UI contains. This, in addition to
+              ComponentKit's text optimizations, allows for much smaller view
+              hierarchies and improves both memory and scroll performance.
+            </p>
+          </div>
+        </div>
+        <div className="row">
+          <div className="col col--5 padding-vert--xl">
+            <h2>Fine-grained Recycling</h2>
+            <p className={styles.featureDescription}>
+              With ComponentKit, each UI item such as text, image, or video is
+              recycled individually. As soon as an item goes off screen, it can
+              be reused anywhere in the UI and pieced together with other items
+              to create new UI elements. Such recycling reduces the need of
+              having multiple view types and improves memory usage and scroll
+              performance.
+            </p>
+          </div>
+          <div className="col col--5 col--offset-2 ">
+            <div className={styles.featureImageColumn}>
+              <img alt="Declarative" src={withBaseUrl('img/recycling.png')} />
+            </div>
+          </div>
+        </div>
+      </div>
     </Layout>
   );
 }

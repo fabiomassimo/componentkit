@@ -1,0 +1,25 @@
+.featureDescription {
+  line-height: 1.625rem;
+}
+
+.featureImageColumn {
+  align-items: center;
+  display: flex;
+  height: 100%;
+}
+
+.ctaButton {
+  color: var(--ifm-color-primary) !important;
+}
+
+.ctaButtonSecondary {
+  color: #fff !important;
+}
+
+.ctaButtonSecondary:hover {
+  color: var(--ifm-color-primary) !important;
+}
+
+.heroTilted {
+  clip-path: polygon(0 0, 100% 0, 100% calc(100% - 6vw), 0 100%);
+}
