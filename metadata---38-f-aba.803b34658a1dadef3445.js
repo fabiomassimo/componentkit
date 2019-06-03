@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[48],{43:function(e){e.exports={permalink:"/",source:"/Users/fabiomilano/Documents/GitHub/componentkit/website/pages/index.js"}}}]);
