@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[60],{62:function(o){o.exports={id:"component-api",title:"Component API",description:"The base `CKComponent` class is quite simple. Leaving out a few methods, it looks like this:",source:"/Users/fabiomilano/Documents/GitHub/componentkit/website/docs/component-api.md",permalink:"/componentkit/docs/component-api"}}}]);
