@@ -1,10 +1,10 @@
 const siteConfig = {
   title: 'ComponentKit',
   tagline: 'A declarative UI framework for iOS',
-  url: 'https://componentkit.org',
-  baseUrl: '/',
-  projectName: 'componentkit',
-  organizationName: 'facebook',
+  url: "https://fabiomassimo.github.io",
+  baseUrl: "/componentkit/",
+  projectName: "componentkit",
+  organizationName: "fabiomassimo",
   themeConfig: {
     navbar: {
       title: 'ComponentKit',

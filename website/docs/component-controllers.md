@@ -2,7 +2,7 @@
 title: Component Controllers
 ---
 
-import Image from '../theme/components/Image.js'
+import withBaseUrl from '@docusaurus/withBaseUrl';
 
 Remember the analogy made in [Philosophy](philosophy.html): components are like a stencil. They are an immutable snapshot of how a view should be configured at a given moment in time.
 
@@ -24,7 +24,7 @@ But sometimes, you do need an object with a longer lifecycle. _Component control
 
 ## Controller Flow
 
-<Image src="assets/component-controllers.png" alt="Component Controller Flow" width="338" height="242" />
+<image src={withBaseUrl("assets/component-controllers.png")} alt="Component Controller Flow" width="338" height="242" />
 
 1. The component controller is **created** with the first component.
 2. When the component is updated, a new instance is generated…

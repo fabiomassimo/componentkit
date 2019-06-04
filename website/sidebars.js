@@ -5,10 +5,18 @@
  * LICENSE file in the root directory of this source tree.
  */
 
+/**
+  Adds content only if building internal FB version of documentations
+  e.g. ...FBInternalOnly({'sected-id'})
+*/
+function FBInternalOnly(...elements) {
+   return process.env.FB_INTERNAL ? elements : [];
+}
+
 module.exports = {
   docs: {
     'Getting Started': ['getting-started', 'philosophy', 'uses'],
-    Reference: [
+    'Reference': [
       'component-api',
       'composite-components',
       'views',

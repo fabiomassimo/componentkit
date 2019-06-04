@@ -2,13 +2,13 @@
 title: Dive Deeper
 ---
 
-import Image from '../theme/components/Image.js'
+import withBaseUrl from '@docusaurus/withBaseUrl';
 
 #CKComponentDataSource in details
 
 Here is what happens behind the scenes where a changeset is enqueued:
 
-<Image src="assets/datasource.png" alt="Overwiew of the datasource" width ="592" height="654" />
+<img src={withBaseUrl("assets/datasource.png")} alt="Overwiew of the datasource" width ="592" height="654" />
 
 <div class="note">
   <p>

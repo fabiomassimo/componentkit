@@ -2,7 +2,7 @@
 title: Overview
 ---
 
-import Image from "../theme/components/Image"
+import withBaseUrl from '@docusaurus/withBaseUrl';
 
 ComponentKit really shines when used with a `UICollectionView`.
 
@@ -54,4 +54,4 @@ The UIKit way to add content to a collection view is:
 
 Conceptually, we now have a one directional data flow. Obviously the back and forth between the `UICollectionView` and the `CKCollectionViewTransactionalDataSource` still happens but it is now hidden.
 
-<Image src="assets/datasource-overview.png" alt="CKCollectionViewTransactionalDataSource overview" width ="518" height="180" />
+<img src={withBaseUrl("assets/datasource-overview.png")} alt="CKCollectionViewTransactionalDataSource overview" width ="518" height="180" />

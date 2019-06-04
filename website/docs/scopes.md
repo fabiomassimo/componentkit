@@ -2,15 +2,15 @@
 title: Scopes
 ---
 
-import Image from '../theme/components/Image.js'
+import withBaseUrl from '@docusaurus/withBaseUrl';
 
 In the following component hierarchy ComponentKit has no way to distinguish the three `ListItem` components:
 
-<Image src="assets/tree.png" width="367" height="124" alt="Component Tree" />
+<img src={withBaseUrl("assets/tree.png")} width="367" height="124" alt="Component Tree" />
 
 ComponentKit needs a way to uniquely identify each `ListItem`. Particularly as the component hierarchy is rebuilt over time:
 
-<Image src="assets/tree-ids.png" width="367" height="124" alt="Component Tree with IDs" />
+<img src={withBaseUrl("assets/tree-ids.png")} width="367" height="124" alt="Component Tree with IDs" />
 
 Scopes give ComponentKit the ability to assign any component with a persistent identity: _regardless of how many times a component is created it will always acquire the same scope_. This behavior is required in the following three situations:
 
