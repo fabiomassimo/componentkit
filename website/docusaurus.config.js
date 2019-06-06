@@ -40,6 +40,9 @@ const siteConfig = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
         },
+        theme: {
+          customCss: require.resolve('./css/custom.css'),
+        },
       },
     ],
   ],
