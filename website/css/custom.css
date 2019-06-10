@@ -1,12 +1,12 @@
 :root {
-  --ifm-color-primary: #00a4b8 !important;
+  --ifm-color-primary: #00a4b8;
 
-  --ifm-navbar-background-color: var(--ifm-color-primary) !important;
-  --ifm-navbar-shadow: none !important;
-  --ifm-navbar-link-hover-color: var(--ifm-navbar-link-color) !important;
+  --ifm-navbar-background-color: var(--ifm-color-primary);
+  --ifm-navbar-shadow: none;
+  --ifm-navbar-link-hover-color: var(--ifm-navbar-link-color);
 
-  --ifm-container-width: 900px !important;
-  --ifm-font-size-base: 16px !important;
+  --ifm-container-width: 900px;
+  --ifm-font-size-base: 16px;
 }
 
 .blockContent {

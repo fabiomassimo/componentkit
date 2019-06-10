@@ -12,8 +12,8 @@
     "deploy": "docusaurus deploy"
   },
   "devDependencies": {
-    "@docusaurus/core": "2.0.0-alpha.18",
-    "@docusaurus/preset-classic": "2.0.0-alpha.18",
+    "@docusaurus/core": "2.0.0-alpha.19",
+    "@docusaurus/preset-classic": "2.0.0-alpha.19",
     "react": "next",
     "react-dom": "next"
   },
