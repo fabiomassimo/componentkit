@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[70],{124:function(e){e.exports={title:"Super Secet",id:"fb/super-secret",description:"This is very secret",source:"/Users/fabiomilano/fbsource/fbobjc/VendorLib/ComponentKit/website/docs/fb/super-secret.md",permalink:"/componentkit/docs/fb/super-secret"}}}]);
