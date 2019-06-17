@@ -1,7 +1,7 @@
 ---
 title: Advanced Views
 ---
-Back in [Views](views.html) we glossed over `CKComponentViewClass` and `CKComponentViewAttribute`. But there's a surprising amount of power hiding here!
+Back in [Views](views) we glossed over `CKComponentViewClass` and `CKComponentViewAttribute`. But there's a surprising amount of power hiding here!
 
 `CKComponentViewClass` describes how to create a `UIView`. Usually you pass an Objective-C class like `[UIImageView class]`, and ComponentKit will automatically create a view by invoking the designated initializer `-initWithFrame:`.
 

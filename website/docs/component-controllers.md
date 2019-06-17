@@ -4,13 +4,13 @@ title: Component Controllers
 
 import withBaseUrl from '@docusaurus/withBaseUrl';
 
-Remember the analogy made in [Philosophy](philosophy.html): components are like a stencil. They are an immutable snapshot of how a view should be configured at a given moment in time.
+Remember the analogy made in [Philosophy](philosophy): components are like a stencil. They are an immutable snapshot of how a view should be configured at a given moment in time.
 
 Every time something changes, an entirely new component is created and the old one is thrown away. This means components are **short-lived**, and their lifecycle is not under your control.
 
 But sometimes, you do need an object with a longer lifecycle. _Component controllers_ fill that role:
 
-- [Components can't be delegates](components-cant-be-delegates.html) because they are short-lived, but component controllers can be delegates.
+- [Components can't be delegates](components-cant-be-delegates) because they are short-lived, but component controllers can be delegates.
 - Network downloads take time to complete; the component may have been recreated by the time the download completes. The controller can handle the callback.
 - You may need an object to own some other object that should have a long lifetime.
 
@@ -18,7 +18,7 @@ But sometimes, you do need an object with a longer lifecycle. _Component control
 
 - Controllers are instantiated automatically by ComponentKit. Don't try to create them manually.
 - Define a controller by simply creating a subclass of `CKComponentController`; the naming convention is your component name plus "Controller". However, you can choose a different name or reuse an existing controller.
-- Your component must have a <a href="scopes.html">`CKComponentScope`</a> to have a controller. (If you forget, you will get an assertion failure.)
+- Your component must have a [`CKComponentScope`](scopes) to have a controller. (If you forget, you will get an assertion failure.)
 - Your component must override `+ (Class<CKComponentControllerProtocol>)controllerClass` to indicate which class is its controller.
 - Any `CKComponentAction` methods handled by your component can also be handled by the controller.
 

@@ -12,7 +12,7 @@ Where possible, you should explicitly define the target of your action using eit
 
 An action may be sent through the `send` function on `CKAction`, which takes the sender component, and the parameters to be passed to the receiver.
 
-For legacy reasons, we also support using `CKComponentActionSend`. The `CKComponentActionSend` function takes an action, a sender, and an optional opaque context object. It follows the [component responder chain](responder-chain.html) until it finds a component (or component controller) that responds to the given selector, then sends a message with the sender and context as parameters.
+For legacy reasons, we also support using `CKComponentActionSend`. The `CKComponentActionSend` function takes an action, a sender, and an optional opaque context object. It follows the [component responder chain](responder-chain) until it finds a component (or component controller) that responds to the given selector, then sends a message with the sender and context as parameters.
 
 <div class="note-important">
   <p>
@@ -115,9 +115,9 @@ Blocks might seem like a more natural way to specify callbacks. Unfortunately it
 
 ### Hybrid Responder Chain
 
-Component actions begin traversal of the [component responder chain](responder-chain.html) from the target or scoped component, or if neither are defined, at the sender of the action. They traverse upwards from there.
+Component actions begin traversal of the [component responder chain](responder-chain) from the target or scoped component, or if neither are defined, at the sender of the action. They traverse upwards from there.
 
-In general, you should avoid using the [component responder chain](responder-chain.html), but for legacy reasons it still exists. Instead, you should use target- or scope-based actions, which will verify that the action is handled directly. If you use the scope-based component action, the type-checking machinery will verify that your component or controller responds to the selector with the expected param types (to the extent that Obj-C allows) at runtime.
+In general, you should avoid using the [component responder chain](responder-chain), but for legacy reasons it still exists. Instead, you should use target- or scope-based actions, which will verify that the action is handled directly. If you use the scope-based component action, the type-checking machinery will verify that your component or controller responds to the selector with the expected param types (to the extent that Obj-C allows) at runtime.
 
 ### Automatic Promotion
 

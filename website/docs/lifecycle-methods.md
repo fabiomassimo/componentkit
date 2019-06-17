@@ -2,7 +2,7 @@
 title: Lifecycle Methods
 ---
 
-[Component controllers](component-controllers.html) expose lifecycle methods that allow you to perform custom operations as components mount, unmount, update, and acquire views.
+[Component controllers](component-controllers) expose lifecycle methods that allow you to perform custom operations as components mount, unmount, update, and acquire views.
 
 <div class="note">
   <p>
@@ -20,7 +20,7 @@ Lifecycle methods have the following defined ordering.
 2. `componentDidAcquireView` *if* the controller's component has a view
 3. `didMount` after the component *and* all of its children are mounted
 
-### Remounting 
+### Remounting
 
 Remounting occurs when the controller's component is already mounted and either the component is being updated or the root component is being attached to a different view.
 
@@ -30,7 +30,7 @@ Remounting occurs when the controller's component is already mounted and either 
     2. `componentDidAcquireView`
 3. `didRemount`
 
-### Unmounting 
+### Unmounting
 
 1. `willUnmount`
 2. `componentWillRelinquishView` *if* the controller's component has a view
@@ -42,16 +42,16 @@ Remounting occurs when the controller's component is already mounted and either 
   </p>
 </div>
 
-### Updating 
+### Updating
 
 The controller's component can be updated to a new version of the component as part of the mounting or remounting process. In this case, you'll receive the following callbacks:
 
 1. `willUpdateComponent` before `willMount` or `willRemount`
 2. `didUpdateComponent` after `didMount` or `didRemount`
 
-## Uses 
+## Uses
 
-### Mutating the View 
+### Mutating the View
 
 Generally views are a hidden implementation detail of ComponentKit, but you may need to break that abstraction:
 

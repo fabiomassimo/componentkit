@@ -28,4 +28,4 @@ For example, imagine you're implementing a button to share an article in a newsr
 @end
 ```
 
-[Never Subclass Components](never-subclass-components.html) contains more information about why you should favor subclassing `CKCompositeComponent` whenever posible.
+[Never Subclass Components](never-subclass-components) contains more information about why you should favor subclassing `CKCompositeComponent` whenever posible.
