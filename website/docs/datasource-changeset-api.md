@@ -13,7 +13,7 @@ These commands can be seen as a sentence with three parts :
 
 Here is some sample code, showing how to create a changeset - As you can see changesets are a c++ structure.
 
-```objectivec highlight
+```objectivec
 CKArrayControllerInputItems items;
 // Insert an item at index 0 in section 0 and compute the component for the model @"Hello"
 items.insert({0, 0}, @"Hello");
@@ -32,7 +32,7 @@ sections.insert(3);
 
 Changes can also be created from `NSIndexPaths` :
 
-```objectivec highlight
+```objectivec
 CKArrayControllerInputItems items;
 NSIndexPath *insertionIndexPath = [NSIndexPath indexPathForItem:0 inSection:0];
 items.insert({insertionIndexPath}, @"Hello");
@@ -40,7 +40,7 @@ items.insert({insertionIndexPath}, @"Hello");
 
 You can even get rid of the brackets around the `NSIndexPath`, thanks to [C++ converting constructors](http://en.cppreference.com/w/cpp/language/converting_constructor) :
 
-```objectivec highlight
+```objectivec
 CKArrayControllerInputItems items;
 NSIndexPath *insertionIndexPath = [NSIndexPath indexPathForItem:0 inSection:0];
 items.insert(insertionIndexPath, @"Hello");

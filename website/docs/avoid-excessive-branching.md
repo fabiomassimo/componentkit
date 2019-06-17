@@ -4,7 +4,7 @@ title: Avoid Excessive Branching
 
 Avoid excessive branching in component code; it hurts readability.
 
-```objectivec redhighlight
+```objectivec-redhighlight
 + (instancetype)newWithArticle:(Article *)article
 {
   CKComponent *headerComponent;
@@ -38,7 +38,7 @@ Avoid excessive branching in component code; it hurts readability.
 
 If you find yourself branching too much, consider separating your component into smaller components and composing them.
 
-```objectivec highlight
+```objectivec
 + (instancetype)newWithArticle:(Article *)article
 {
   return [super newWithComponent:

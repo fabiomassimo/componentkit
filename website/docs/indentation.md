@@ -16,17 +16,17 @@ Because components are often deeply nested structures, it's rarely possible to f
 
 This is hard to read:
 
-{: .redhighlight }
-{% highlight objc %}
-HeaderComponent *header = [HeaderComponent newWithTitle:@"Hello world"
-                                      subtitleComponent:[SubtitleComponent newWithSubtitle:subtitle
-                                                                                     image:image]
-                                                  image:image];
-{% endhighlight %}
+```objectivec-redhighlight
+HeaderComponent *header =
+  [HeaderComponent
+    newWithTitle:@"Hello world"
+    subtitleComponent:[SubtitleComponent newWithSubtitle:subtitle image:image]
+    image:image];
+```
 
 <p>Much better:</p>
 
-{% highlight objc %}
+```objectivec
 HeaderComponent *header =
 [HeaderComponent
  newWithTitle:@"Hello world"
@@ -35,7 +35,7 @@ HeaderComponent *header =
   newWithSubtitle:subtitle
   image:image]
  image:image];
-{% endhighlight %}
+```
 
 <p>Within a statement, indent by only one space.</p>
 

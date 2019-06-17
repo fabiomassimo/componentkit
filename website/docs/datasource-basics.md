@@ -15,7 +15,7 @@ This transformation will be defined as a method on a class conforming to `CKComp
 
 Let's make our UIViewController be the component provider here.
 
-```objectivec highlight
+```objectivec
 @interface MyController <CKComponentProvider>
 ...
 @end
@@ -49,7 +49,7 @@ Don't access global state inside a Component. Use the context to pass this infor
 
 Ok, so now we have our view controller as the component provider, let's create our `CKCollectionViewDataSource` and attach the collection view to it.
 
-```objectivec highlight
+```objectivec
 - (void)viewDidLoad {
 [super viewDidLoad];
 ...
@@ -75,7 +75,7 @@ Using `CKCollectionViewDataSource` changes are never applied directly to the col
 
 Let's add a section at index 0 with two items at indexes 0 and 1.
 
-```objectivec highlight
+```objectivec
 - (void)viewDidAppear:(BOOL)animated {
   [super viewDidAppear:animated];
   ...
@@ -90,7 +90,7 @@ Let's add a section at index 0 with two items at indexes 0 and 1.
 
 Later on (for instance when updated data is received from the server), we can update our first item with an updated model.
 
-```objectivec highlight
+```objectivec
 ...
 CKDataSourceChangeset *updateChangeset =
 [[[CKDataSourceChangesetBuilder transactionalComponentDataSourceChangeset] withUpdatedItems:@{[NSIndexPath indexPathForItem:0 inSection:0] : updatedFirstModel}] build];
@@ -110,7 +110,7 @@ Let's see how the computed component sizes can be used with the `UICollectionVie
 
 Each item is sized so that it matches the size of its corresponding component.
 
-```objectivec highlight
+```objectivec
 - (CGSize)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout *)collectionViewLayout sizeForItemAtIndexPath:(NSIndexPath *)indexPath {
     return [self.dataSource sizeForItemAtIndexPath:indexPath];
 }
@@ -125,7 +125,7 @@ Pretty simple right ? And this logic can apply to any `UICollectionViewLayout` :
 
 Time to interact with those items now; nothing special here the regular selection APIs can be used. Let's say the models have a url that should be opened when the user tap on an item.
 
-```objectivec highlight
+```objectivec
 - (void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath
 {
 	MyModel *model = (MyModel *)[self.dataSource modelForItemAtIndexPath:indexPath];

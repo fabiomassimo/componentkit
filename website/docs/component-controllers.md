@@ -36,7 +36,7 @@ There is a only a one-way communication channel between the component and its co
 
 To pass data from a component to its controller, expose a `@property` on the component in a class extension. The controller can initialize itself with the properties in `initWithComponent:`. If these properties will be changing in subsequent state changes (i.e. a new component is being created with different values for these properties), keep them up to date in `didUpdateComponent`.
 
-```objectivec highlight
+```objectivec
 @interface MySongComponent()
 @property (nonatomic, strong, readonly) MySong *song;     // All components for a controller share the same value
 @property (nonatomic, assign, readonly) BOOL isPlaying;   // Different components may have different values (part of component state)

@@ -24,7 +24,7 @@ For legacy reasons, we also support using `CKComponentActionSend`. The `CKCompon
 
 Here's an example of how to handle a component action.
 
-```objectivec highlight
+```objectivec
 @implementation SampleComponent
 + (instancetype)new
 {

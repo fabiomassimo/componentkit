@@ -7,7 +7,7 @@ title: Gotchas
 
 A datasource will initially be totally empty (no items and no sections). Inserting items in section 0 before inserting section 0 will cause an exception to be raised.
 
-```objectivec highlight
+```objectivec
 CKComponentCollectionViewDataSource datasource = [[CKComponentCollectionViewDataSource alloc] ...];
 CKArrayControllerInputItems items;
 CKArrayControllerSections sections;
@@ -38,13 +38,13 @@ The datasource maintains an internal data structure which is the only source of 
 
 For instance to access the model associated to a certain index path using a `CKCollectionViewDataSource` you can use:
 
-```objectivec highlight
+```objectivec
 [datasource modelForItemAtIndexPath:indexPath];
 ```
 
 Now let's look at what could go wrong if we query another source of data.
 
-```objectivec highlight
+```objectivec
 @implementation MyAwesomeController {
     CKComponentCollectionViewDataSource *_datasource;
     NSMutableArray *_listOfModels;
@@ -75,8 +75,7 @@ The datasource gives you the current state of what is displayed on the screen, b
 
 Let's look at this buggy code that uses the datasource to compute the insertion index.
 
-{: .redhighlight }
-```objectivec highlight
+```objectivec-redhighlight
 @implementation MyAwesomeController {
     CKComponentCollectionViewDataSource *_datasource;
     NSMutableArray *_listOfModels;
@@ -98,7 +97,7 @@ Let's look at this buggy code that uses the datasource to compute the insertion 
 
 In `-insertAtTail` we should check `_listOfModels` instead to compute the insertion index.
 
-```objectivec highlight
+```objectivec
 - (void)insertAtTail:(id)model {
 // We first add the new model (C) at the end of _listOfModels which already contains (A) et (B)
     // [A, B] -> [A, B, C]

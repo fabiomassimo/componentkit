@@ -9,7 +9,7 @@ A "composite component" simply wraps another component, hiding its implementatio
 
 For example, imagine you're implementing a button to share an article in a newsreader app. You could implement `ShareButtonComponent` as a composite component that wraps a `CKButtonComponent`:
 
-```objectivec highlight
+```objectivec
 @implementation ShareButtonComponent
 
 + (instancetype)newWithArticle:(ArticleModel *)article

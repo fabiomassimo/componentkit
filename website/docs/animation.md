@@ -8,7 +8,7 @@ ComponentKit exposes three ways to perform animations on a component.
 
 Override this method to specify how to animate the initial appearance of a component:
 
-```objectivec highlight
+```objectivec
 - (std::vector<CKComponentAnimation>)animationsOnInitialMount
 {
     return { {self, fadeToAppear()} };
@@ -28,7 +28,7 @@ static CAAnimation *fadeToAppear()
 
 Override this method to specify how to animate between two versions of a component. Here's an example from the example app:
 
-```objectivec highlight
+```objectivec
 - (std::vector<CKComponentAnimation>)animationsFromPreviousComponent:(InteractiveQuoteComponent *)previousComponent
 {
   if (previousComponent->_overlay == nil && _overlay != nil) {
@@ -52,7 +52,7 @@ static CAAnimation *scaleToAppear()
 
 Override this method to specify how the top-level bounds of a component should animate inside a `UICollectionView`. For example, if you were implementing an expandable article component that changes its height, you could specify a spring animation for changing the cell bounds:
 
-```objectivec highlight
+```objectivec
 - (CKComponentBoundsAnimation)boundsAnimationFromPreviousComponent:(ArticleComponent *)previousComponent
 {
   if (previousComponent->_state == ArticleComponentStateCollapsed && _state == ArticleComponentStateExpanded) {
@@ -80,7 +80,7 @@ If updating your component's [state](state.html) changes it's bounds, both `boun
 
 Engineers on iOS are used to the simple UIView block-based animations. Here’s what they look like:
 
-```objectivec highlight
+```objectivec
 UIView *view = ...;
 [UIView animateWithDuration:0.3 animations:^{
 	view.frame = CGRectMake(50, 50, view.frame.size.width, view.frame.size.height);
@@ -168,7 +168,7 @@ Each of these animation types is supported through a separate method that subcla
 
 Initial animations are probably the simplest conceptually. A CKComponent may provide initial animations by overriding to this method:
 
-```objectivec highlight
+```objectivec
 - (std::vector<CKComponentAnimation>)animationsOnInitialMount;
 ```
 
@@ -176,7 +176,7 @@ A component may return *multiple* animations. So for instance, it could provide 
 
 Returning to the example above:
 
-```objectivec highlight
+```objectivec
 - (std::vector<CKComponentAnimation>)animationsOnInitialMount
 {
     return { {self, fadeToAppear()} };
@@ -191,7 +191,7 @@ Let's say that you have a button that needs to bounce a little bit when it is se
 
 Here's the method you override to return your animations:
 
-```objectivec highlight
+```objectivec
 - (std::vector<CKComponentAnimation>)animationsFromPreviousComponent:(CKComponent *)previousComponent;
 ```
 
@@ -199,7 +199,7 @@ Again, the component may return multiple animations from the previous version of
 
 Returning to the example above:
 
-```objectivec highlight
+```objectivec
 - (std::vector<CKComponentAnimation>)animationsFromPreviousComponent:(InteractiveQuoteComponent *)previousComponent
 {
   if (previousComponent->_overlay == nil && _overlay != nil) {
@@ -216,7 +216,7 @@ What has happened here is that the InteractiveQuoteComponent has called `updateS
 
 As I mentioned, bounds animations have to be handled specially because they actually change how changes to the UICollectionView are processed. Here's how a component would animate a bounds change:
 
-```objectivec highlight
+```objectivec
 - (CKComponentBoundsAnimation)boundsAnimationFromPreviousComponent:(CKComponent *)previousComponent;
 An astute observer would note that bounds animations are not `CKComponentAnimation`. They are instead `CKComponentBoundsAnimation`. This is a different struct that has the following members:
 struct CKComponentBoundsAnimation {
@@ -240,7 +240,7 @@ Since bounds animations have this global scope, it is impossible for the framewo
 
 Returning to the example above:
 
-```objectivec highlight
+```objectivec
 - (CKComponentBoundsAnimation)boundsAnimationFromPreviousComponent:(ArticleComponent *)previousComponent
 {
   if (previousComponent->_state == ArticleComponentStateCollapsed && _state == ArticleComponentStateExpanded) {

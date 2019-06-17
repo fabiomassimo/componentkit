@@ -5,7 +5,7 @@ Use [designated initializer style][0] when initializing a structure.
 
 For example, consider `CKStaticLayoutComponent` which accepts a collection of children. Each `CKStaticLayoutComponentChild` is a structure that consists of a `position`, a `component`, and a `size`. Instead of initializing contiguous members:
 
-```objectivec redhighlight
+```objectivec-redhighlight
 CKComponent *const component =
 [CKStaticLayoutComponent
  newWithChildren:{
@@ -29,7 +29,7 @@ CKComponent *const component =
 
 You should initialize each member by name:
 
-```objectivec highlight
+```objectivec
 CKComponent *const component =
 [CKStaticLayoutComponent
  newWithChildren:{

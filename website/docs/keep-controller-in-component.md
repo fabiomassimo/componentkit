@@ -3,7 +3,7 @@ title: Keep Controller in Component
 ---
 Avoid creating a separate file for component controllers.
 
-```objectivec highlight
+```objectivec
 @implementation BoldToggleComponent
 
 + (instancetype)newWithString:(NSString *)string

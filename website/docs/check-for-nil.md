@@ -6,7 +6,7 @@ Remember: **`+new` can always return nil**. ComponentKit adopts the convention t
 
 This is important when you are implementing `+new`; you must check if `[super +new...]` returned nil before assigning to ivars.
 
-```objectivec redhighlight
+```objectivec-redhighlight
 @implementation MyComponent
 {
   NSString *_name;
@@ -22,7 +22,7 @@ This is important when you are implementing `+new`; you must check if `[super +n
 
 Instead:
 
-```objectivec highlight
+```objectivec
 
 + (instancetype)newWithName:(NSString *)name
 {

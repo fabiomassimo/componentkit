@@ -38,7 +38,7 @@ Here is an example of usage of `CKComponentDataSource` directly with a UIViewCon
 
 `ComponentsTableViewController.h`
 
-```objectivec highlight
+```objectivec
 /* This file provided by Facebook is for non-commercial testing and evaluation
  * purposes only.  Facebook reserves all rights not expressly granted.
  *
@@ -59,7 +59,7 @@ Here is an example of usage of `CKComponentDataSource` directly with a UIViewCon
 
 `ComponentTableViewController.mm`
 
-```objectivec highlight
+```objectivec
 /* This file provided by Facebook is for non-commercial testing and evaluation
  * purposes only.  Facebook reserves all rights not expressly granted.
  *

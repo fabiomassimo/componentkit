@@ -5,7 +5,7 @@ id: avoid-width-100-percent
 
 Avoid doing this:
 
-```objectivec redhighlight
+```objectivec-redhighlight
 @implementation ArtistComponent
 + (instancetype)newWithArtist:(ArtistModel *)artist
 {

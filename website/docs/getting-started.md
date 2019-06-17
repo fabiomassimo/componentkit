@@ -26,7 +26,7 @@ Let's imagine we want to remove the white quote mark that's circled in this scre
 
 First we'll need to figure out which component we need to change. Pause the app in the debugger and execute the following command in lldb. This inserts special debug views in the hierarchy, as described in [Debugging](debugging.html).
 
-```objectivec highlight
+```objectivec
 (lldb) e (void)[CKComponentDebugController setDebugMode:YES]
 ```
 
@@ -42,7 +42,7 @@ Aha! So we need to modify `FrostedQuoteComponent`. That file should make a few t
 
 The quote mark is created here:
 
-```objectivec highlight
+```objectivec
 {
   // A semi-transparent end quote (") symbol placed below the quote.
   [CKInsetComponent
@@ -58,7 +58,7 @@ Delete everything (including the curly braces), so that the `CKStackLayoutCompon
 Things look a little imbalanced now, though. There are 70 points of padding on top and only 25 points on bottom. Modify the
 `CKInsetComponent` to change the bottom padding to be 70 points as well:
 
-```objectivec highlight
+```objectivec
 [CKInsetComponent
  newWithInsets:{.top = 70, .bottom = 70, .left = 20, .right = 20}
  ```

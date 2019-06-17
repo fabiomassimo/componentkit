@@ -11,7 +11,7 @@ Figuring out the difference between these two can be tricky at first. [Thinking 
 
 Just like React, `CKComponent` has state.
 
-```objectivec highlight
+```objectivec
 @interface CKComponent
 - (void)updateState:(id (^)(id))updateBlock mode:(CKUpdateMode)mode;
 @end
@@ -19,7 +19,7 @@ Just like React, `CKComponent` has state.
 
 Let's make a simple example of using state for the "Continue Reading…" link.
 
-```objectivec highlight
+```objectivec
 #import "CKComponentSubclass.h" // import to expose updateState:
 @implementation MessageComponent
 

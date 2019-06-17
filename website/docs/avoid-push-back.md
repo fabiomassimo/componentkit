@@ -4,7 +4,7 @@ title: Avoid push_back
 
 Avoid doing this:
 
-```objectivec redhighlight
+```objectivec-redhighlight
 std::vector<CKStackLayoutComponentChild> children;
 if (someSetting) {
   children.push_back({[HeaderComponent newWithModel:model});
@@ -28,7 +28,7 @@ There are a few reasons why:
 
 Instead, do this:
 
-```objectivec highlight
+```objectivec
 return [super newWithComponent:
         [CKStackLayoutComponent
          newWithView:{}

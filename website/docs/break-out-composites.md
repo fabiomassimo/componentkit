@@ -3,7 +3,7 @@ title: Break Out Composite Components
 ---
 Avoid creating sub-components in `static` helper functions.
 
-```objectivec redhighlight
+```objectivec-redhighlight
 + (instancetype)newWithTitle:(NSString *)title
                     subtitle:(NSString *)subtitle
 {
@@ -35,7 +35,7 @@ static CKComponent *textComponent(NSString *text, UIFont *font)
 
 Instead, break out a separate `CKCompositeComponent`. This keeps components readable and allows more use of named parameters.
 
-```objectivec highlight
+```objectivec
 + (instancetype)newWithTitle:(NSString *)title
                     subtitle:(NSString *)subtitle
 {

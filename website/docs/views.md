@@ -5,14 +5,14 @@ title: Views
 
 Create components using the `newWithView:size:` class method:
 
-```objectivec highlight
+```objectivec
 + (instancetype)newWithView:(const CKComponentViewConfiguration &)view
                        size:(const CKComponentSize &)size;
 ```
 
 It's important to note that you don't pass a `UIView` directly, but a `CKComponentViewConfiguration`. What's that?
 
-```objectivec highlight
+```objectivec
 struct CKComponentViewConfiguration {
   CKComponentViewClass viewClass;
   std::unordered_map<CKComponentViewAttribute, id> attributes;
@@ -25,7 +25,7 @@ The second field holds a map of attributes to values: font, color, background im
 
 Let's put one together:
 
-```objectivec highlight
+```objectivec
 [CKComponent 
  newWithView:{
    [UIImageView class],
@@ -51,7 +51,7 @@ The values in the map are of type `id`, so if you want to pass in primitive type
 
 Often there exist logical components that don't need a corresponding view in the view hierarchy. For example a `CKStackLayoutComponent` often doesn't need to have a view; it only needs to position various subviews inside a designated area. In such situations, just pass `{}` for the view configuration and no view is created. For example:
 
-```objectivec highlight
+```objectivec
 [CKComponent newWithView:{} size:{}]
 ```
 

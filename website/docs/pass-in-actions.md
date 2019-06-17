@@ -5,7 +5,7 @@ Follow this simple rule: Selectors should be implemented in the same file they a
 
 The following counterexample establishes a hidden coupling between the parent and child component. If another component tries to use `ChildComponent` or if the method is renamed in `ParentComponent`, it will crash at runtime.
 
-```objectivec redhighlight
+```objectivec-redhighlight
 @implementation ParentComponent
 + (instancetype)new
 {
@@ -30,7 +30,7 @@ The following counterexample establishes a hidden coupling between the parent an
 
 Instead, always pass selectors from parents to children. In the following example, it is explicit that the child component needs a `CKTypedComponentAction<>` selector. If the parent component renames the `someAction:` method, it's far easier to catch renaming the parameter.
 
-```objectivec highlight
+```objectivec
 
 @implementation ParentComponent
 + (instancetype)new

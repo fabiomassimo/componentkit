@@ -22,7 +22,7 @@ Scopes give ComponentKit the ability to assign any component with a persistent i
 
 Use `CKComponentScope` to define a component scope at the top of a component's `+new` method.
 
-```objectivec highlight
+```objectivec
 @implementation ListItemComponent
 
 + (instancetype)newWithListItem:(ListItem *)listItem
@@ -38,7 +38,7 @@ Use `CKComponentScope` to define a component scope at the top of a component's `
 
 If a component does not have a model object with a unique identifier a scope can be defined without one:
 
-```objectivec highlight
+```objectivec
 @implementation ListComponent
 
 + (instancetype)newWithList:(List *)list
@@ -54,7 +54,7 @@ If a component does not have a model object with a unique identifier a scope can
 
 Omitting the scope's identifier is safe as long as there will not be more than one sibling component of the same type. The example above assumes `ListComponent`'s parent will only ever render one `ListComponent`. If that assumption no longer holds then the parent component must specify a unique identifier for scopes of its children. This is when `CKComponentKey` is helpful:
 
-```objectivec highlight
+```objectivec
 @implementation ListsComponent
 
 + (instancetype)newWithList:(NSArray<List *> *)lists

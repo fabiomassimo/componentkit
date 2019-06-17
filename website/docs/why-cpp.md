@@ -6,7 +6,7 @@ Using Objective-C++ in ComponentKit offers some serious wins in syntax. However 
 
 Here again is a generic article component:
 
-```objectivec highlight
+```objectivec
 [CKStackLayoutComponent
  newWithStyle:{
   .direction = CKStackLayoutComponentDirectionVertical,
@@ -20,7 +20,7 @@ Here again is a generic article component:
 
 Here's what it might look like in pure Objective-C:
 
-```objectivec redhighlight
+```objectivec-redhighlight
 [CKStackLayoutComponent newWithStyle:[[CKStackLayoutComponentStyle alloc] initWithDirection:CKStackLayoutComponentDirectionVertical
                                                                              justifyContent:CKStackLayoutComponentJustifyContentStart
                                                                                  alignItems:CKStackLayoutComponentAlignItemsStart
@@ -59,7 +59,7 @@ Being fully declarative and immutable means you use a *lot* of objects. C++ obje
 
 Objective-C containers throw if you insert `nil` elements in them but C++ containers do not. Relaxing this constraint makes it convenient to write hierarchies where any individual child may be nil:
 
-```objectivec highlight
+```objectivec
   children:{
     headerComponent,
     messageComponent,
@@ -70,7 +70,7 @@ Objective-C containers throw if you insert `nil` elements in them but C++ contai
 
 The alternative would be a bunch of conditionals in Objective-C:
 
-```objectivec redhighlight
+```objectivec-redhighlight
 NSMutableArray *children = [NSMutableArray array];
 if (headerComponent) {
   [children addObject:headerComponent];

@@ -5,7 +5,7 @@ Method overrides make components more difficult to use.
 
 Imagine you're adding an optional text color parameter to a component. You might be tempted to add an override:
 
-```objectivec redhighlight
+```objectivec-redhighlight
 @interface ArticleTextComponent
 + (instancetype)newWithText:(NSString *)text;
 + (instancetype)newWithText:(NSString *)text textColor:(UIColor *)textColor;
@@ -14,7 +14,7 @@ Imagine you're adding an optional text color parameter to a component. You might
 
 But someone will later add another override:
 
-```objectivec redhighlight
+```objectivec-redhighlight
   @interface ArticleTextComponent
   + (instancetype)newWithText:(NSString *)text;
   + (instancetype)newWithText:(NSString *)text textColor:(UIColor *)textColor;
@@ -29,7 +29,7 @@ The component is splintering. It's not obvious which override to use and we need
 
 Instead, always expose all parameters in a single designated initializer and document which are optional.
 
-```objectivec highlight
+```objectivec
 @interface ArticleTextComponent
 /**
  @param text The text to render in the component.
@@ -44,7 +44,7 @@ Instead, always expose all parameters in a single designated initializer and doc
 
 If there are too many parameters, a useful pattern is a "style struct". For example, see `CKTextComponent`:
 
-```objectivec highlight
+```objectivec
 struct CKTextKitAttributes {
   NSAttributedString *attributedString;
   NSAttributedString *truncationAttributedString;
@@ -66,7 +66,7 @@ struct CKTextKitAttributes {
 
 Using [aggregate initialization](http://en.cppreference.com/w/cpp/language/aggregate_initialization), it's easy to initialize the style struct with only some parameters:
 
-```objectivec highlight
+```objectivec
 {
   .shadowColor = [UIColor blackColor],
   .maximumNumberOfLines = 1,

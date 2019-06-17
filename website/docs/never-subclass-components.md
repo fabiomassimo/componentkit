@@ -9,8 +9,7 @@ Only subclass `CKCompositeComponent`. (If you need to perform advanced layout by
 
 For example, imagine that we're adding a new "highlighted" card component. It should look just like a regular card component, but have a yellow background color. Don't do this:
 
-{: .redhighlight }
-{% highlight objc %}
+```objectivec-redhighlight
 @implementation HighlightedCardComponent : CardComponent
 - (UIColor *)backgroundColor
 {
@@ -18,11 +17,11 @@ For example, imagine that we're adding a new "highlighted" card component. It sh
   return [UIColor yellowColor];
 }
 @end
-{% endhighlight %}
+```
 
 Instead, make `CardComponent` take the color as a parameter and then subclass `CKCompositeComponent` to create your highlighted component:
 
-{% highlight objc %}
+```objectivec
 @implementation HighlightedCardComponent : CKCompositeComponent
 + (instancetype)newWithArticle:(CKArticle *)article
 {
@@ -32,4 +31,4 @@ Instead, make `CardComponent` take the color as a parameter and then subclass `C
            backgroundColor:[UIColor yellowColor]]];
 }
 @end
-{% endhighlight %}
+```

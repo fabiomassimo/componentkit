@@ -8,7 +8,7 @@ A simple analogy is to think of a component as a stencil: a fixed description th
 
 Let's see some sample code for rendering an article in a news app:
 
-```objectivec highlight
+```objectivec
 @implementation ArticleComponent
 
 + (instancetype)newWithArticle:(ArticleModel *)article

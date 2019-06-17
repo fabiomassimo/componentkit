@@ -5,7 +5,7 @@ title: Component API
 
 The base `CKComponent` class is quite simple. Leaving out a few methods, it looks like this:
 
-```objectivec highlight
+```objectivec
 @interface CKComponent : NSObject
 
 /** Returns a new component. */
