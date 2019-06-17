@@ -59,4 +59,4 @@ Often there exist logical components that don't need a corresponding view in the
 
 ## Advanced Views
 
-This is sufficient for most cases, but there is considerably more power when you need it. See [Advanced Views](advanced-views) if you want to learn more.
+This is sufficient for most cases, but there is considerably more power when you need it. See [Advanced Views](/advanced-views) if you want to learn more.

@@ -70,9 +70,9 @@ Override this method to specify how the top-level bounds of a component should a
 
 ## Notes
 
-**If you implement either method, your component must have a [scope](scopes).**
+**If you implement either method, your component must have a [scope](/scopes).**
 
-If updating your component's [state](state) changes it's bounds, both `boundsAnimationFromPreviousComponent` and `animationsFromPreviousComponent` will be called.
+If updating your component's [state](/state) changes it's bounds, both `boundsAnimationFromPreviousComponent` and `animationsFromPreviousComponent` will be called.
 
 ## In-depth
 

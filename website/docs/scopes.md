@@ -14,8 +14,8 @@ ComponentKit needs a way to uniquely identify each `ListItem`. Particularly as t
 
 Scopes give ComponentKit the ability to assign any component with a persistent identity: _regardless of how many times a component is created it will always acquire the same scope_. This behavior is required in the following three situations:
 
-1. If a component has [state](state) it must also define a scope
-2. If a component has a [component controller](component-controllers) it must also define a scope
+1. If a component has [state](/state) it must also define a scope
+2. If a component has a [component controller](/component-controllers) it must also define a scope
 3. If a component has children that themselves have state or component controllers it must also define a scope when encountering a scope collision
 
 ## Defining a Scope

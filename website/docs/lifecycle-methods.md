@@ -2,7 +2,7 @@
 title: Lifecycle Methods
 ---
 
-[Component controllers](component-controllers) expose lifecycle methods that allow you to perform custom operations as components mount, unmount, update, and acquire views.
+[Component controllers](/component-controllers) expose lifecycle methods that allow you to perform custom operations as components mount, unmount, update, and acquire views.
 
 <div class="note">
   <p>
