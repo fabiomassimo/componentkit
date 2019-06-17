@@ -2,6 +2,8 @@
 title: Debugging
 ---
 
+import withBaseUrl from '@docusaurus/withBaseUrl';
+
 When working with ComponentKit, you would generally uses generic views such as `UIButton`, `UIImageView`, etc. under the hood. Hence, when you run a command in the LLDB debugger like [Chisel's](http://www.github.com/facebook/chisel) `pviews` you'll see a generic view hierarchy with no information about components. The following is the output of running `pviews` for an application using ComponentKit.
 
 ```sh
@@ -32,7 +34,7 @@ ComponentKit includes a set of debugging tools that help you debug component hie
   </p>
 </div>
 
-## Print Component Hierarchy 
+## Print Component Hierarchy
 
 Type the following in the debugger to print the component hierarchy:
 
@@ -40,7 +42,7 @@ Type the following in the debugger to print the component hierarchy:
 (lldb) po [CKComponentHierarchyDebugHelper componentHierarchyDescription]
 ```
 
-This includes layout information like position and size. It is designed to be analogous to how `pviews` works. It is the easiest way to reason about where your layout might have gone wrong while looking at the component rendered on screen. 
+This includes layout information like position and size. It is designed to be analogous to how `pviews` works. It is the easiest way to reason about where your layout might have gone wrong while looking at the component rendered on screen.
 
 ```sh
 For View: <UIView: 0x7b249f70; frame = (0 0; 320 355.5); gestureRecognizers = <NSArray: 0x7b544aa0>; layer = <CALayer: 0x7b249fe0>>
@@ -66,7 +68,7 @@ Optionally you can use:
 ```sh
 (lldb) po [CKComponentHierarchyDebugHelper componentHierarchyDescriptionForView:0x7be52100 searchUpwards:NO]
 ```
- 
+
 This method takes in a view from where to begin its search and the search can be upwards as well, as shown in this case, it traverses up to find the first view on which there's a component hierarchy attached. Note that this works by finding the view at which the root component is attached and then printing the view hierarchy from there downwards.
 
 <div class="note">
@@ -114,12 +116,12 @@ and to disable:
 ```
 
 ### Xcode Debug View Hierachy / Reveal Integration
-This helper really shines when you can actually see the view hierarchy, be it in Xcode or [Reveal](http://revealapp.com/) 
+This helper really shines when you can actually see the view hierarchy, be it in Xcode or [Reveal](http://revealapp.com/)
 
 If you use the the Xcode's default *Debug View Hierarchy* tool to see the individual views:
 
-![Debug Components with Xcode](assets/xcode-debug.png)
+<img src={withBaseUrl("assets/xcode-debug.png")} alt="Debug Components with Xcode" />
 
 Or you can use [Reveal](http://revealapp.com/):
 
-![Debug Components with Reveal](assets/reveal-debug.png)
+<img src={withBaseUrl("assets/reveal-debug.png")} alt="Debug Components with Reveal" />
