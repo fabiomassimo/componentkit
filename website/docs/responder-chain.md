@@ -8,7 +8,7 @@ ComponentKit has a responder chain that is similar to the [responder chain on iO
 
 <img src={withBaseUrl("assets/responder-chain.png")} alt="Responder Chain" width="618" height="443" />
 
-1. The next responder of a component is its [controller](/component-controllers), if it has one.
+1. The next responder of a component is its [controller](./component-controllers), if it has one.
 2. The next responder of a component's controller is its component's parent component.
 3. If a component doesn't have a controller, its next responder is its parent component.
 4. The next responder of the root component is the view it is attached to.
@@ -20,7 +20,7 @@ Note that a component is not a subclass of `UIResponder` and it cannot become th
 
 # Tap Handling
 
-The easiest way to handle taps on `UIControl` views is to use `CKComponentActionAttribute`. It returns a component attribute that triggers a [component action](/actions) when any given `UIControlEvent` occurs. For example:
+The easiest way to handle taps on `UIControl` views is to use `CKComponentActionAttribute`. It returns a component attribute that triggers a [component action](./actions) when any given `UIControlEvent` occurs. For example:
 
 ```objectivec
 @implementation SomeComponent

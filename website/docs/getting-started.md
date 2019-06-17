@@ -24,7 +24,7 @@ Let's imagine we want to remove the white quote mark that's circled in this scre
 
 <img src={withBaseUrl("assets/quote-before.png")} width="250" height="431" alt="FrostedQuoteComponent screenshot with quote mark circled" />
 
-First we'll need to figure out which component we need to change. Pause the app in the debugger and execute the following command in lldb. This inserts special debug views in the hierarchy, as described in [Debugging](/debugging).
+First we'll need to figure out which component we need to change. Pause the app in the debugger and execute the following command in lldb. This inserts special debug views in the hierarchy, as described in [Debugging](./debugging).
 
 ```objectivec
 (lldb) e (void)[CKComponentDebugController setDebugMode:YES]

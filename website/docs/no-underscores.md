@@ -10,7 +10,7 @@ Don't underscore-prefix private helper methods or `static` C functions.
 }
 ```
 
-[Subclassing components is discouraged](/never-subclass-components), so there's no need to worry about distinguishing public and private methods or colliding with methods in the superclass.
+[Subclassing components is discouraged](./never-subclass-components), so there's no need to worry about distinguishing public and private methods or colliding with methods in the superclass.
 
 ```objectivec
 - (void)buttonAction:(CKComponent *)sender

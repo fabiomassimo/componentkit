@@ -98,7 +98,7 @@ CKDataSourceChangeset *updateChangeset =
 ...
 ```
 
-It is also possible to remove items and sections through this [changeset API](/datasource-changeset-api).
+It is also possible to remove items and sections through this [changeset API](./datasource-changeset-api).
 
 #### Layout
 
@@ -137,6 +137,6 @@ Time to interact with those items now; nothing special here the regular selectio
 
 <div class="note-important">
  <p>
-The datasource is the source of truth for the collection view, if you have to retrieve a model corresponding to an indexPath always use `-modelForItemAtIndexPath`. See this [gotcha](/datasource-gotchas) for more details.
+The datasource is the source of truth for the collection view, if you have to retrieve a model corresponding to an indexPath always use `-modelForItemAtIndexPath`. See this [gotcha](./datasource-gotchas) for more details.
  </p>
 </div>

@@ -35,7 +35,7 @@ ComponentKit includes a standard data source stack dedicated to render component
 
 `CKCollectionViewTransactionalDataSource` is a thin wrapper around `CKDataSource` that implements the `UICollectionViewDataSource` API.
 
-It can be used to easily bootstrap a `UICollectionView` using components. See how to [display components in a collection view.](/datasource-basics)
+It can be used to easily bootstrap a `UICollectionView` using components. See how to [display components in a collection view.](./datasource-basics)
 
 #### Philosophy
 
