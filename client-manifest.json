@@ -144,1173 +144,1168 @@
       44,
       0
     ],
-    "/Users/fabiomilano/fbsource/fbobjc/VendorLib/ComponentKit/website/pages/index.js": [
+    "component---theme-doc-page-1-be-9be": [
       0,
       1
     ],
-    "/Users/fabiomilano/fbsource/fbobjc/VendorLib/ComponentKit/website/pages/support.js": [
+    "/Users/fabiomilano/Documents/GitHub/componentkit/website/pages/index.js": [
       0,
       2
     ],
-    "/Users/fabiomilano/fbsource/fbobjc/VendorLib/ComponentKit/website/docs/actions.md": [
+    "/Users/fabiomilano/Documents/GitHub/componentkit/website/pages/support.js": [
       0,
       3
     ],
-    "/Users/fabiomilano/fbsource/fbobjc/VendorLib/ComponentKit/website/docs/advanced-views.md": [
+    "/Users/fabiomilano/Documents/GitHub/componentkit/website/docs/actions.md": [
       0,
       4
     ],
-    "/Users/fabiomilano/fbsource/fbobjc/VendorLib/ComponentKit/website/docs/animation.md": [
+    "/Users/fabiomilano/Documents/GitHub/componentkit/website/docs/advanced-views.md": [
       0,
       5
     ],
-    "/Users/fabiomilano/fbsource/fbobjc/VendorLib/ComponentKit/website/docs/avoid-excessive-branching.md": [
+    "/Users/fabiomilano/Documents/GitHub/componentkit/website/docs/animation.md": [
       0,
       6
     ],
-    "/Users/fabiomilano/fbsource/fbobjc/VendorLib/ComponentKit/website/docs/avoid-local-variables.md": [
+    "/Users/fabiomilano/Documents/GitHub/componentkit/website/docs/avoid-excessive-branching.md": [
       0,
       7
     ],
-    "/Users/fabiomilano/fbsource/fbobjc/VendorLib/ComponentKit/website/docs/avoid-overrides.md": [
+    "/Users/fabiomilano/Documents/GitHub/componentkit/website/docs/avoid-local-variables.md": [
       0,
       8
     ],
-    "/Users/fabiomilano/fbsource/fbobjc/VendorLib/ComponentKit/website/docs/avoid-push-back.md": [
+    "/Users/fabiomilano/Documents/GitHub/componentkit/website/docs/avoid-overrides.md": [
       0,
       9
     ],
-    "/Users/fabiomilano/fbsource/fbobjc/VendorLib/ComponentKit/website/docs/avoid-single-use-constants.md": [
+    "/Users/fabiomilano/Documents/GitHub/componentkit/website/docs/avoid-push-back.md": [
       0,
       10
     ],
-    "/Users/fabiomilano/fbsource/fbobjc/VendorLib/ComponentKit/website/docs/avoid-width-100-percent.md": [
+    "/Users/fabiomilano/Documents/GitHub/componentkit/website/docs/avoid-single-use-constants.md": [
       0,
       11
     ],
-    "/Users/fabiomilano/fbsource/fbobjc/VendorLib/ComponentKit/website/docs/break-out-composites.md": [
+    "/Users/fabiomilano/Documents/GitHub/componentkit/website/docs/avoid-width-100-percent.md": [
       0,
       12
     ],
-    "/Users/fabiomilano/fbsource/fbobjc/VendorLib/ComponentKit/website/docs/check-for-nil.md": [
+    "/Users/fabiomilano/Documents/GitHub/componentkit/website/docs/break-out-composites.md": [
       0,
       13
     ],
-    "/Users/fabiomilano/fbsource/fbobjc/VendorLib/ComponentKit/website/docs/component-api.md": [
+    "/Users/fabiomilano/Documents/GitHub/componentkit/website/docs/check-for-nil.md": [
       0,
       14
     ],
-    "/Users/fabiomilano/fbsource/fbobjc/VendorLib/ComponentKit/website/docs/component-controllers.md": [
+    "/Users/fabiomilano/Documents/GitHub/componentkit/website/docs/component-api.md": [
       0,
       15
     ],
-    "/Users/fabiomilano/fbsource/fbobjc/VendorLib/ComponentKit/website/docs/component-hosting-view.md": [
+    "/Users/fabiomilano/Documents/GitHub/componentkit/website/docs/component-controllers.md": [
       0,
       16
     ],
-    "/Users/fabiomilano/fbsource/fbobjc/VendorLib/ComponentKit/website/docs/components-cant-be-delegates.md": [
+    "/Users/fabiomilano/Documents/GitHub/componentkit/website/docs/component-hosting-view.md": [
       0,
       17
     ],
-    "/Users/fabiomilano/fbsource/fbobjc/VendorLib/ComponentKit/website/docs/composite-components.md": [
+    "/Users/fabiomilano/Documents/GitHub/componentkit/website/docs/components-cant-be-delegates.md": [
       0,
       18
     ],
-    "/Users/fabiomilano/fbsource/fbobjc/VendorLib/ComponentKit/website/docs/datasource-basics.md": [
+    "/Users/fabiomilano/Documents/GitHub/componentkit/website/docs/composite-components.md": [
       0,
       19
     ],
-    "/Users/fabiomilano/fbsource/fbobjc/VendorLib/ComponentKit/website/docs/datasource-changeset-api.md": [
+    "/Users/fabiomilano/Documents/GitHub/componentkit/website/docs/datasource-basics.md": [
       0,
       20
     ],
-    "/Users/fabiomilano/fbsource/fbobjc/VendorLib/ComponentKit/website/docs/datasource-dive-deeper.md": [
+    "/Users/fabiomilano/Documents/GitHub/componentkit/website/docs/datasource-changeset-api.md": [
       0,
       21
     ],
-    "/Users/fabiomilano/fbsource/fbobjc/VendorLib/ComponentKit/website/docs/datasource-gotchas.md": [
+    "/Users/fabiomilano/Documents/GitHub/componentkit/website/docs/datasource-dive-deeper.md": [
       0,
       22
     ],
-    "/Users/fabiomilano/fbsource/fbobjc/VendorLib/ComponentKit/website/docs/datasource-overview.md": [
+    "/Users/fabiomilano/Documents/GitHub/componentkit/website/docs/datasource-gotchas.md": [
       0,
       23
     ],
-    "/Users/fabiomilano/fbsource/fbobjc/VendorLib/ComponentKit/website/docs/debugging.md": [
+    "/Users/fabiomilano/Documents/GitHub/componentkit/website/docs/datasource-overview.md": [
       0,
       24
     ],
-    "/Users/fabiomilano/fbsource/fbobjc/VendorLib/ComponentKit/website/docs/fb/super-secret.md": [
+    "/Users/fabiomilano/Documents/GitHub/componentkit/website/docs/debugging.md": [
       0,
       25
     ],
-    "/Users/fabiomilano/fbsource/fbobjc/VendorLib/ComponentKit/website/docs/getting-started.md": [
+    "/Users/fabiomilano/Documents/GitHub/componentkit/website/docs/getting-started.md": [
       0,
       26
     ],
-    "/Users/fabiomilano/fbsource/fbobjc/VendorLib/ComponentKit/website/docs/indentation.md": [
+    "/Users/fabiomilano/Documents/GitHub/componentkit/website/docs/indentation.md": [
       0,
       27
     ],
-    "/Users/fabiomilano/fbsource/fbobjc/VendorLib/ComponentKit/website/docs/keep-controller-in-component.md": [
+    "/Users/fabiomilano/Documents/GitHub/componentkit/website/docs/keep-controller-in-component.md": [
       0,
       28
     ],
-    "/Users/fabiomilano/fbsource/fbobjc/VendorLib/ComponentKit/website/docs/layout.md": [
+    "/Users/fabiomilano/Documents/GitHub/componentkit/website/docs/layout.md": [
       0,
       29
     ],
-    "/Users/fabiomilano/fbsource/fbobjc/VendorLib/ComponentKit/website/docs/lifecycle-methods.md": [
+    "/Users/fabiomilano/Documents/GitHub/componentkit/website/docs/lifecycle-methods.md": [
       0,
       30
     ],
-    "/Users/fabiomilano/fbsource/fbobjc/VendorLib/ComponentKit/website/docs/never-subclass-components.md": [
+    "/Users/fabiomilano/Documents/GitHub/componentkit/website/docs/never-subclass-components.md": [
       0,
       31
     ],
-    "/Users/fabiomilano/fbsource/fbobjc/VendorLib/ComponentKit/website/docs/no-side-effects.md": [
+    "/Users/fabiomilano/Documents/GitHub/componentkit/website/docs/no-side-effects.md": [
       0,
       32
     ],
-    "/Users/fabiomilano/fbsource/fbobjc/VendorLib/ComponentKit/website/docs/no-underscores.md": [
+    "/Users/fabiomilano/Documents/GitHub/componentkit/website/docs/no-underscores.md": [
       0,
       33
     ],
-    "/Users/fabiomilano/fbsource/fbobjc/VendorLib/ComponentKit/website/docs/pass-in-actions.md": [
+    "/Users/fabiomilano/Documents/GitHub/componentkit/website/docs/pass-in-actions.md": [
       0,
       34
     ],
-    "/Users/fabiomilano/fbsource/fbobjc/VendorLib/ComponentKit/website/docs/pass-in-immutable-objects.md": [
+    "/Users/fabiomilano/Documents/GitHub/componentkit/website/docs/pass-in-immutable-objects.md": [
       0,
       35
     ],
-    "/Users/fabiomilano/fbsource/fbobjc/VendorLib/ComponentKit/website/docs/philosophy.md": [
+    "/Users/fabiomilano/Documents/GitHub/componentkit/website/docs/philosophy.md": [
       0,
       36
     ],
-    "/Users/fabiomilano/fbsource/fbobjc/VendorLib/ComponentKit/website/docs/responder-chain.md": [
+    "/Users/fabiomilano/Documents/GitHub/componentkit/website/docs/responder-chain.md": [
       0,
       37
     ],
-    "/Users/fabiomilano/fbsource/fbobjc/VendorLib/ComponentKit/website/docs/scopes.md": [
+    "/Users/fabiomilano/Documents/GitHub/componentkit/website/docs/scopes.md": [
       0,
       38
     ],
-    "/Users/fabiomilano/fbsource/fbobjc/VendorLib/ComponentKit/website/docs/state.md": [
+    "/Users/fabiomilano/Documents/GitHub/componentkit/website/docs/state.md": [
       0,
       39
     ],
-    "/Users/fabiomilano/fbsource/fbobjc/VendorLib/ComponentKit/website/docs/under-300-lines.md": [
+    "/Users/fabiomilano/Documents/GitHub/componentkit/website/docs/under-300-lines.md": [
       0,
       40
     ],
-    "/Users/fabiomilano/fbsource/fbobjc/VendorLib/ComponentKit/website/docs/use-designated-initializer-style.md": [
+    "/Users/fabiomilano/Documents/GitHub/componentkit/website/docs/use-designated-initializer-style.md": [
       0,
       41
     ],
-    "/Users/fabiomilano/fbsource/fbobjc/VendorLib/ComponentKit/website/docs/uses.md": [
+    "/Users/fabiomilano/Documents/GitHub/componentkit/website/docs/uses.md": [
       0,
       42
     ],
-    "/Users/fabiomilano/fbsource/fbobjc/VendorLib/ComponentKit/website/docs/views.md": [
+    "/Users/fabiomilano/Documents/GitHub/componentkit/website/docs/views.md": [
       0,
       43
     ],
-    "/Users/fabiomilano/fbsource/fbobjc/VendorLib/ComponentKit/website/docs/why-cpp.md": [
+    "/Users/fabiomilano/Documents/GitHub/componentkit/website/docs/why-cpp.md": [
       0,
       44
     ],
-    "/Users/fabiomilano/fbsource/fbobjc/VendorLib/ComponentKit/website/.docusaurus/docusaurus-plugin-content-docs/componentkit-docs-55b.json": [
+    "/Users/fabiomilano/Documents/GitHub/componentkit/website/.docusaurus/docusaurus-plugin-content-docs/componentkit-docs-55b.json": [
       45
     ],
     "main": [
-      91,
+      90,
       46
     ],
-    "/Users/fabiomilano/fbsource/fbobjc/VendorLib/ComponentKit/website/.docusaurus/docusaurus-plugin-content-pages/componentkit-e64.json": [
+    "/Users/fabiomilano/Documents/GitHub/componentkit/website/.docusaurus/docusaurus-plugin-content-pages/componentkit-e64.json": [
       47
     ],
-    "/Users/fabiomilano/fbsource/fbobjc/VendorLib/ComponentKit/website/.docusaurus/docusaurus-plugin-content-docs/componentkit-docs-actions-a26.json": [
+    "/Users/fabiomilano/Documents/GitHub/componentkit/website/.docusaurus/docusaurus-plugin-content-docs/componentkit-docs-actions-a26.json": [
       48
     ],
-    "/Users/fabiomilano/fbsource/fbobjc/VendorLib/ComponentKit/website/.docusaurus/docusaurus-plugin-content-docs/componentkit-docs-advanced-views-ddd.json": [
+    "/Users/fabiomilano/Documents/GitHub/componentkit/website/.docusaurus/docusaurus-plugin-content-docs/componentkit-docs-advanced-views-ddd.json": [
       49
     ],
-    "/Users/fabiomilano/fbsource/fbobjc/VendorLib/ComponentKit/website/.docusaurus/docusaurus-plugin-content-docs/componentkit-docs-animation-1fe.json": [
+    "/Users/fabiomilano/Documents/GitHub/componentkit/website/.docusaurus/docusaurus-plugin-content-docs/componentkit-docs-animation-1fe.json": [
       50
     ],
-    "/Users/fabiomilano/fbsource/fbobjc/VendorLib/ComponentKit/website/.docusaurus/docusaurus-plugin-content-docs/componentkit-docs-avoid-excessive-branching-627.json": [
+    "/Users/fabiomilano/Documents/GitHub/componentkit/website/.docusaurus/docusaurus-plugin-content-docs/componentkit-docs-avoid-excessive-branching-627.json": [
       51
     ],
-    "/Users/fabiomilano/fbsource/fbobjc/VendorLib/ComponentKit/website/.docusaurus/docusaurus-plugin-content-docs/componentkit-docs-avoid-local-variables-29f.json": [
+    "/Users/fabiomilano/Documents/GitHub/componentkit/website/.docusaurus/docusaurus-plugin-content-docs/componentkit-docs-avoid-local-variables-29f.json": [
       52
     ],
-    "/Users/fabiomilano/fbsource/fbobjc/VendorLib/ComponentKit/website/.docusaurus/docusaurus-plugin-content-docs/componentkit-docs-avoid-overrides-df6.json": [
+    "/Users/fabiomilano/Documents/GitHub/componentkit/website/.docusaurus/docusaurus-plugin-content-docs/componentkit-docs-avoid-overrides-df6.json": [
       53
     ],
-    "/Users/fabiomilano/fbsource/fbobjc/VendorLib/ComponentKit/website/.docusaurus/docusaurus-plugin-content-docs/componentkit-docs-avoid-push-back-57a.json": [
+    "/Users/fabiomilano/Documents/GitHub/componentkit/website/.docusaurus/docusaurus-plugin-content-docs/componentkit-docs-avoid-push-back-57a.json": [
       54
     ],
-    "/Users/fabiomilano/fbsource/fbobjc/VendorLib/ComponentKit/website/.docusaurus/docusaurus-plugin-content-docs/componentkit-docs-avoid-single-use-constants-624.json": [
+    "/Users/fabiomilano/Documents/GitHub/componentkit/website/.docusaurus/docusaurus-plugin-content-docs/componentkit-docs-avoid-single-use-constants-624.json": [
       55
     ],
-    "/Users/fabiomilano/fbsource/fbobjc/VendorLib/ComponentKit/website/.docusaurus/docusaurus-plugin-content-docs/componentkit-docs-avoid-width-100-percent-56b.json": [
+    "/Users/fabiomilano/Documents/GitHub/componentkit/website/.docusaurus/docusaurus-plugin-content-docs/componentkit-docs-avoid-width-100-percent-56b.json": [
       56
     ],
-    "/Users/fabiomilano/fbsource/fbobjc/VendorLib/ComponentKit/website/.docusaurus/docusaurus-plugin-content-docs/componentkit-docs-break-out-composites-70a.json": [
+    "/Users/fabiomilano/Documents/GitHub/componentkit/website/.docusaurus/docusaurus-plugin-content-docs/componentkit-docs-break-out-composites-70a.json": [
       57
     ],
-    "/Users/fabiomilano/fbsource/fbobjc/VendorLib/ComponentKit/website/.docusaurus/docusaurus-plugin-content-docs/componentkit-docs-check-for-nil-250.json": [
+    "/Users/fabiomilano/Documents/GitHub/componentkit/website/.docusaurus/docusaurus-plugin-content-docs/componentkit-docs-check-for-nil-250.json": [
       58
     ],
-    "/Users/fabiomilano/fbsource/fbobjc/VendorLib/ComponentKit/website/.docusaurus/docusaurus-plugin-content-docs/componentkit-docs-component-api-43d.json": [
+    "/Users/fabiomilano/Documents/GitHub/componentkit/website/.docusaurus/docusaurus-plugin-content-docs/componentkit-docs-component-api-43d.json": [
       59
     ],
-    "/Users/fabiomilano/fbsource/fbobjc/VendorLib/ComponentKit/website/.docusaurus/docusaurus-plugin-content-docs/componentkit-docs-component-controllers-5fa.json": [
+    "/Users/fabiomilano/Documents/GitHub/componentkit/website/.docusaurus/docusaurus-plugin-content-docs/componentkit-docs-component-controllers-5fa.json": [
       60
     ],
-    "/Users/fabiomilano/fbsource/fbobjc/VendorLib/ComponentKit/website/.docusaurus/docusaurus-plugin-content-docs/componentkit-docs-component-hosting-view-019.json": [
+    "/Users/fabiomilano/Documents/GitHub/componentkit/website/.docusaurus/docusaurus-plugin-content-docs/componentkit-docs-component-hosting-view-019.json": [
       61
     ],
-    "/Users/fabiomilano/fbsource/fbobjc/VendorLib/ComponentKit/website/.docusaurus/docusaurus-plugin-content-docs/componentkit-docs-components-cant-be-delegates-f26.json": [
+    "/Users/fabiomilano/Documents/GitHub/componentkit/website/.docusaurus/docusaurus-plugin-content-docs/componentkit-docs-components-cant-be-delegates-f26.json": [
       62
     ],
-    "/Users/fabiomilano/fbsource/fbobjc/VendorLib/ComponentKit/website/.docusaurus/docusaurus-plugin-content-docs/componentkit-docs-composite-components-4b5.json": [
+    "/Users/fabiomilano/Documents/GitHub/componentkit/website/.docusaurus/docusaurus-plugin-content-docs/componentkit-docs-composite-components-4b5.json": [
       63
     ],
-    "/Users/fabiomilano/fbsource/fbobjc/VendorLib/ComponentKit/website/.docusaurus/docusaurus-plugin-content-docs/componentkit-docs-datasource-basics-0df.json": [
+    "/Users/fabiomilano/Documents/GitHub/componentkit/website/.docusaurus/docusaurus-plugin-content-docs/componentkit-docs-datasource-basics-0df.json": [
       64
     ],
-    "/Users/fabiomilano/fbsource/fbobjc/VendorLib/ComponentKit/website/.docusaurus/docusaurus-plugin-content-docs/componentkit-docs-datasource-changeset-api-6ee.json": [
+    "/Users/fabiomilano/Documents/GitHub/componentkit/website/.docusaurus/docusaurus-plugin-content-docs/componentkit-docs-datasource-changeset-api-6ee.json": [
       65
     ],
-    "/Users/fabiomilano/fbsource/fbobjc/VendorLib/ComponentKit/website/.docusaurus/docusaurus-plugin-content-docs/componentkit-docs-datasource-dive-deeper-9c5.json": [
+    "/Users/fabiomilano/Documents/GitHub/componentkit/website/.docusaurus/docusaurus-plugin-content-docs/componentkit-docs-datasource-dive-deeper-9c5.json": [
       66
     ],
-    "/Users/fabiomilano/fbsource/fbobjc/VendorLib/ComponentKit/website/.docusaurus/docusaurus-plugin-content-docs/componentkit-docs-datasource-gotchas-118.json": [
+    "/Users/fabiomilano/Documents/GitHub/componentkit/website/.docusaurus/docusaurus-plugin-content-docs/componentkit-docs-datasource-gotchas-118.json": [
       67
     ],
-    "/Users/fabiomilano/fbsource/fbobjc/VendorLib/ComponentKit/website/.docusaurus/docusaurus-plugin-content-docs/componentkit-docs-datasource-overview-17a.json": [
+    "/Users/fabiomilano/Documents/GitHub/componentkit/website/.docusaurus/docusaurus-plugin-content-docs/componentkit-docs-datasource-overview-17a.json": [
       68
     ],
-    "/Users/fabiomilano/fbsource/fbobjc/VendorLib/ComponentKit/website/.docusaurus/docusaurus-plugin-content-docs/componentkit-docs-debugging-414.json": [
+    "/Users/fabiomilano/Documents/GitHub/componentkit/website/.docusaurus/docusaurus-plugin-content-docs/componentkit-docs-debugging-414.json": [
       69
     ],
-    "/Users/fabiomilano/fbsource/fbobjc/VendorLib/ComponentKit/website/.docusaurus/docusaurus-plugin-content-docs/componentkit-docs-fb-super-secret-d9d.json": [
+    "/Users/fabiomilano/Documents/GitHub/componentkit/website/.docusaurus/docusaurus-plugin-content-docs/componentkit-docs-getting-started-eeb.json": [
       70
     ],
-    "/Users/fabiomilano/fbsource/fbobjc/VendorLib/ComponentKit/website/.docusaurus/docusaurus-plugin-content-docs/componentkit-docs-getting-started-eeb.json": [
+    "/Users/fabiomilano/Documents/GitHub/componentkit/website/.docusaurus/docusaurus-plugin-content-docs/componentkit-docs-indentation-8db.json": [
       71
     ],
-    "/Users/fabiomilano/fbsource/fbobjc/VendorLib/ComponentKit/website/.docusaurus/docusaurus-plugin-content-docs/componentkit-docs-indentation-8db.json": [
+    "/Users/fabiomilano/Documents/GitHub/componentkit/website/.docusaurus/docusaurus-plugin-content-docs/componentkit-docs-keep-controller-in-component-114.json": [
       72
     ],
-    "/Users/fabiomilano/fbsource/fbobjc/VendorLib/ComponentKit/website/.docusaurus/docusaurus-plugin-content-docs/componentkit-docs-keep-controller-in-component-114.json": [
+    "/Users/fabiomilano/Documents/GitHub/componentkit/website/.docusaurus/docusaurus-plugin-content-docs/componentkit-docs-layout-e93.json": [
       73
     ],
-    "/Users/fabiomilano/fbsource/fbobjc/VendorLib/ComponentKit/website/.docusaurus/docusaurus-plugin-content-docs/componentkit-docs-layout-e93.json": [
+    "/Users/fabiomilano/Documents/GitHub/componentkit/website/.docusaurus/docusaurus-plugin-content-docs/componentkit-docs-lifecycle-methods-ac8.json": [
       74
     ],
-    "/Users/fabiomilano/fbsource/fbobjc/VendorLib/ComponentKit/website/.docusaurus/docusaurus-plugin-content-docs/componentkit-docs-lifecycle-methods-ac8.json": [
+    "/Users/fabiomilano/Documents/GitHub/componentkit/website/.docusaurus/docusaurus-plugin-content-docs/componentkit-docs-never-subclass-components-403.json": [
       75
     ],
-    "/Users/fabiomilano/fbsource/fbobjc/VendorLib/ComponentKit/website/.docusaurus/docusaurus-plugin-content-docs/componentkit-docs-never-subclass-components-403.json": [
+    "/Users/fabiomilano/Documents/GitHub/componentkit/website/.docusaurus/docusaurus-plugin-content-docs/componentkit-docs-no-side-effects-96c.json": [
       76
     ],
-    "/Users/fabiomilano/fbsource/fbobjc/VendorLib/ComponentKit/website/.docusaurus/docusaurus-plugin-content-docs/componentkit-docs-no-side-effects-96c.json": [
+    "/Users/fabiomilano/Documents/GitHub/componentkit/website/.docusaurus/docusaurus-plugin-content-docs/componentkit-docs-no-underscores-596.json": [
       77
     ],
-    "/Users/fabiomilano/fbsource/fbobjc/VendorLib/ComponentKit/website/.docusaurus/docusaurus-plugin-content-docs/componentkit-docs-no-underscores-596.json": [
+    "/Users/fabiomilano/Documents/GitHub/componentkit/website/.docusaurus/docusaurus-plugin-content-docs/componentkit-docs-pass-in-actions-9e4.json": [
       78
     ],
-    "/Users/fabiomilano/fbsource/fbobjc/VendorLib/ComponentKit/website/.docusaurus/docusaurus-plugin-content-docs/componentkit-docs-pass-in-actions-9e4.json": [
+    "/Users/fabiomilano/Documents/GitHub/componentkit/website/.docusaurus/docusaurus-plugin-content-docs/componentkit-docs-pass-in-immutable-objects-5a6.json": [
       79
     ],
-    "/Users/fabiomilano/fbsource/fbobjc/VendorLib/ComponentKit/website/.docusaurus/docusaurus-plugin-content-docs/componentkit-docs-pass-in-immutable-objects-5a6.json": [
+    "/Users/fabiomilano/Documents/GitHub/componentkit/website/.docusaurus/docusaurus-plugin-content-docs/componentkit-docs-philosophy-3f6.json": [
       80
     ],
-    "/Users/fabiomilano/fbsource/fbobjc/VendorLib/ComponentKit/website/.docusaurus/docusaurus-plugin-content-docs/componentkit-docs-philosophy-3f6.json": [
+    "/Users/fabiomilano/Documents/GitHub/componentkit/website/.docusaurus/docusaurus-plugin-content-docs/componentkit-docs-responder-chain-0f4.json": [
       81
     ],
-    "/Users/fabiomilano/fbsource/fbobjc/VendorLib/ComponentKit/website/.docusaurus/docusaurus-plugin-content-docs/componentkit-docs-responder-chain-0f4.json": [
+    "/Users/fabiomilano/Documents/GitHub/componentkit/website/.docusaurus/docusaurus-plugin-content-docs/componentkit-docs-scopes-49c.json": [
       82
     ],
-    "/Users/fabiomilano/fbsource/fbobjc/VendorLib/ComponentKit/website/.docusaurus/docusaurus-plugin-content-docs/componentkit-docs-scopes-49c.json": [
+    "/Users/fabiomilano/Documents/GitHub/componentkit/website/.docusaurus/docusaurus-plugin-content-docs/componentkit-docs-state-754.json": [
       83
     ],
-    "/Users/fabiomilano/fbsource/fbobjc/VendorLib/ComponentKit/website/.docusaurus/docusaurus-plugin-content-docs/componentkit-docs-state-754.json": [
+    "/Users/fabiomilano/Documents/GitHub/componentkit/website/.docusaurus/docusaurus-plugin-content-docs/componentkit-docs-under-300-lines-de8.json": [
       84
     ],
-    "/Users/fabiomilano/fbsource/fbobjc/VendorLib/ComponentKit/website/.docusaurus/docusaurus-plugin-content-docs/componentkit-docs-under-300-lines-de8.json": [
+    "/Users/fabiomilano/Documents/GitHub/componentkit/website/.docusaurus/docusaurus-plugin-content-docs/componentkit-docs-use-designated-initializer-style-d2b.json": [
       85
     ],
-    "/Users/fabiomilano/fbsource/fbobjc/VendorLib/ComponentKit/website/.docusaurus/docusaurus-plugin-content-docs/componentkit-docs-use-designated-initializer-style-d2b.json": [
+    "/Users/fabiomilano/Documents/GitHub/componentkit/website/.docusaurus/docusaurus-plugin-content-docs/componentkit-docs-uses-d69.json": [
       86
     ],
-    "/Users/fabiomilano/fbsource/fbobjc/VendorLib/ComponentKit/website/.docusaurus/docusaurus-plugin-content-docs/componentkit-docs-uses-d69.json": [
+    "/Users/fabiomilano/Documents/GitHub/componentkit/website/.docusaurus/docusaurus-plugin-content-docs/componentkit-docs-views-a0d.json": [
       87
     ],
-    "/Users/fabiomilano/fbsource/fbobjc/VendorLib/ComponentKit/website/.docusaurus/docusaurus-plugin-content-docs/componentkit-docs-views-a0d.json": [
+    "/Users/fabiomilano/Documents/GitHub/componentkit/website/.docusaurus/docusaurus-plugin-content-docs/componentkit-docs-why-cpp-686.json": [
       88
     ],
-    "/Users/fabiomilano/fbsource/fbobjc/VendorLib/ComponentKit/website/.docusaurus/docusaurus-plugin-content-docs/componentkit-docs-why-cpp-686.json": [
+    "/Users/fabiomilano/Documents/GitHub/componentkit/website/.docusaurus/docusaurus-plugin-content-pages/componentkit-support-867.json": [
       89
-    ],
-    "/Users/fabiomilano/fbsource/fbobjc/VendorLib/ComponentKit/website/.docusaurus/docusaurus-plugin-content-pages/componentkit-support-867.json": [
-      90
     ],
     "runtime~main": [
       46,
-      91
+      90
     ]
   },
   "assets": {
     "0": {
       "css": [
         {
-          "file": "vendors.0de85277fee08a5c8e0e.css",
-          "hash": "0de85277fee08a5c8e0e",
-          "publicPath": "/componentkit/vendors.0de85277fee08a5c8e0e.css"
+          "file": "vendors.d115fcb0edfeb6fe4ca0.css",
+          "hash": "d115fcb0edfeb6fe4ca0",
+          "publicPath": "/componentkit/vendors.d115fcb0edfeb6fe4ca0.css"
         }
       ],
       "js": [
         {
-          "file": "vendors.0de85277fee08a5c8e0e.js",
-          "hash": "0de85277fee08a5c8e0e",
-          "publicPath": "/componentkit/vendors.0de85277fee08a5c8e0e.js"
+          "file": "vendors.d115fcb0edfeb6fe4ca0.js",
+          "hash": "d115fcb0edfeb6fe4ca0",
+          "publicPath": "/componentkit/vendors.d115fcb0edfeb6fe4ca0.js"
         }
       ]
     },
     "1": {
       "css": [
         {
-          "file": "component---users-fabiomilano-fbsource-fbobjc-vendor-lib-component-kit-website-pages-index-jsbf-7-972.ca41b41021608e08c431.css",
-          "hash": "ca41b41021608e08c431",
-          "publicPath": "/componentkit/component---users-fabiomilano-fbsource-fbobjc-vendor-lib-component-kit-website-pages-index-jsbf-7-972.ca41b41021608e08c431.css"
+          "file": "component---theme-doc-page-1-be-9be.f61c1c75a873ca996009.css",
+          "hash": "f61c1c75a873ca996009",
+          "publicPath": "/componentkit/component---theme-doc-page-1-be-9be.f61c1c75a873ca996009.css"
         }
       ],
       "js": [
         {
-          "file": "component---users-fabiomilano-fbsource-fbobjc-vendor-lib-component-kit-website-pages-index-jsbf-7-972.ca41b41021608e08c431.js",
-          "hash": "ca41b41021608e08c431",
-          "publicPath": "/componentkit/component---users-fabiomilano-fbsource-fbobjc-vendor-lib-component-kit-website-pages-index-jsbf-7-972.ca41b41021608e08c431.js"
+          "file": "component---theme-doc-page-1-be-9be.f61c1c75a873ca996009.js",
+          "hash": "f61c1c75a873ca996009",
+          "publicPath": "/componentkit/component---theme-doc-page-1-be-9be.f61c1c75a873ca996009.js"
         }
       ]
     },
     "2": {
+      "css": [
+        {
+          "file": "component---users-fabiomilano-documents-git-hub-componentkit-website-pages-index-js-05-c-a28.64be3678ebe1432e80b4.css",
+          "hash": "64be3678ebe1432e80b4",
+          "publicPath": "/componentkit/component---users-fabiomilano-documents-git-hub-componentkit-website-pages-index-js-05-c-a28.64be3678ebe1432e80b4.css"
+        }
+      ],
       "js": [
         {
-          "file": "component---users-fabiomilano-fbsource-fbobjc-vendor-lib-component-kit-website-pages-support-js-5-fb-155.72c3f4e8683325d1d10e.js",
-          "hash": "72c3f4e8683325d1d10e",
-          "publicPath": "/componentkit/component---users-fabiomilano-fbsource-fbobjc-vendor-lib-component-kit-website-pages-support-js-5-fb-155.72c3f4e8683325d1d10e.js"
+          "file": "component---users-fabiomilano-documents-git-hub-componentkit-website-pages-index-js-05-c-a28.64be3678ebe1432e80b4.js",
+          "hash": "64be3678ebe1432e80b4",
+          "publicPath": "/componentkit/component---users-fabiomilano-documents-git-hub-componentkit-website-pages-index-js-05-c-a28.64be3678ebe1432e80b4.js"
         }
       ]
     },
     "3": {
       "js": [
         {
-          "file": "content---componentkit-docs-actions-546-c3d.eac5899c710333949b92.js",
-          "hash": "eac5899c710333949b92",
-          "publicPath": "/componentkit/content---componentkit-docs-actions-546-c3d.eac5899c710333949b92.js"
+          "file": "component---users-fabiomilano-documents-git-hub-componentkit-website-pages-support-jse-39-96d.bcbfd93e2fecc52ca776.js",
+          "hash": "bcbfd93e2fecc52ca776",
+          "publicPath": "/componentkit/component---users-fabiomilano-documents-git-hub-componentkit-website-pages-support-jse-39-96d.bcbfd93e2fecc52ca776.js"
         }
       ]
     },
     "4": {
       "js": [
         {
-          "file": "content---componentkit-docs-advanced-views-146-1eb.517b57dcfbc4a49d1011.js",
-          "hash": "517b57dcfbc4a49d1011",
-          "publicPath": "/componentkit/content---componentkit-docs-advanced-views-146-1eb.517b57dcfbc4a49d1011.js"
+          "file": "content---componentkit-docs-actions-38-b-470.7bd6da46f60d85864acd.js",
+          "hash": "7bd6da46f60d85864acd",
+          "publicPath": "/componentkit/content---componentkit-docs-actions-38-b-470.7bd6da46f60d85864acd.js"
         }
       ]
     },
     "5": {
       "js": [
         {
-          "file": "content---componentkit-docs-animatione-28-50c.d71e9debbb2b352028c9.js",
-          "hash": "d71e9debbb2b352028c9",
-          "publicPath": "/componentkit/content---componentkit-docs-animatione-28-50c.d71e9debbb2b352028c9.js"
+          "file": "content---componentkit-docs-advanced-views-3-b-8-088.961a7c6acdb2d3d2e32d.js",
+          "hash": "961a7c6acdb2d3d2e32d",
+          "publicPath": "/componentkit/content---componentkit-docs-advanced-views-3-b-8-088.961a7c6acdb2d3d2e32d.js"
         }
       ]
     },
     "6": {
       "js": [
         {
-          "file": "content---componentkit-docs-avoid-excessive-branching-671-6e2.68d93d96254ca2f80c65.js",
-          "hash": "68d93d96254ca2f80c65",
-          "publicPath": "/componentkit/content---componentkit-docs-avoid-excessive-branching-671-6e2.68d93d96254ca2f80c65.js"
+          "file": "content---componentkit-docs-animation-41-c-028.c0bfb9f4d593ecdef48f.js",
+          "hash": "c0bfb9f4d593ecdef48f",
+          "publicPath": "/componentkit/content---componentkit-docs-animation-41-c-028.c0bfb9f4d593ecdef48f.js"
         }
       ]
     },
     "7": {
       "js": [
         {
-          "file": "content---componentkit-docs-avoid-local-variables-2-f-1-64e.b628ad256976793a8671.js",
-          "hash": "b628ad256976793a8671",
-          "publicPath": "/componentkit/content---componentkit-docs-avoid-local-variables-2-f-1-64e.b628ad256976793a8671.js"
+          "file": "content---componentkit-docs-avoid-excessive-branching-569-20c.a03f129ef28fca2c72f0.js",
+          "hash": "a03f129ef28fca2c72f0",
+          "publicPath": "/componentkit/content---componentkit-docs-avoid-excessive-branching-569-20c.a03f129ef28fca2c72f0.js"
         }
       ]
     },
     "8": {
       "js": [
         {
-          "file": "content---componentkit-docs-avoid-overridesfa-5-4c4.8e1c0adeab7b99f62b16.js",
-          "hash": "8e1c0adeab7b99f62b16",
-          "publicPath": "/componentkit/content---componentkit-docs-avoid-overridesfa-5-4c4.8e1c0adeab7b99f62b16.js"
+          "file": "content---componentkit-docs-avoid-local-variablesfb-3-1ed.07ca2bf33a7dad36fe32.js",
+          "hash": "07ca2bf33a7dad36fe32",
+          "publicPath": "/componentkit/content---componentkit-docs-avoid-local-variablesfb-3-1ed.07ca2bf33a7dad36fe32.js"
         }
       ]
     },
     "9": {
       "js": [
         {
-          "file": "content---componentkit-docs-avoid-push-back-31-e-0e0.c8952cfb35c14a32800b.js",
-          "hash": "c8952cfb35c14a32800b",
-          "publicPath": "/componentkit/content---componentkit-docs-avoid-push-back-31-e-0e0.c8952cfb35c14a32800b.js"
+          "file": "content---componentkit-docs-avoid-overridesffc-ed5.d1d6051fd38e5dd75145.js",
+          "hash": "d1d6051fd38e5dd75145",
+          "publicPath": "/componentkit/content---componentkit-docs-avoid-overridesffc-ed5.d1d6051fd38e5dd75145.js"
         }
       ]
     },
     "10": {
       "js": [
         {
-          "file": "content---componentkit-docs-avoid-single-use-constants-0-ef-7f5.d43243c82c12ced9b664.js",
-          "hash": "d43243c82c12ced9b664",
-          "publicPath": "/componentkit/content---componentkit-docs-avoid-single-use-constants-0-ef-7f5.d43243c82c12ced9b664.js"
+          "file": "content---componentkit-docs-avoid-push-backd-44-b09.726c305c6f0178ed643c.js",
+          "hash": "726c305c6f0178ed643c",
+          "publicPath": "/componentkit/content---componentkit-docs-avoid-push-backd-44-b09.726c305c6f0178ed643c.js"
         }
       ]
     },
     "11": {
       "js": [
         {
-          "file": "content---componentkit-docs-avoid-width-100-percentbb-9-479.e6ee14de7574c2a1c812.js",
-          "hash": "e6ee14de7574c2a1c812",
-          "publicPath": "/componentkit/content---componentkit-docs-avoid-width-100-percentbb-9-479.e6ee14de7574c2a1c812.js"
+          "file": "content---componentkit-docs-avoid-single-use-constants-0-df-869.50d350a026a22173e58a.js",
+          "hash": "50d350a026a22173e58a",
+          "publicPath": "/componentkit/content---componentkit-docs-avoid-single-use-constants-0-df-869.50d350a026a22173e58a.js"
         }
       ]
     },
     "12": {
       "js": [
         {
-          "file": "content---componentkit-docs-break-out-composites-101-b2f.a7e247334baeb27c2e98.js",
-          "hash": "a7e247334baeb27c2e98",
-          "publicPath": "/componentkit/content---componentkit-docs-break-out-composites-101-b2f.a7e247334baeb27c2e98.js"
+          "file": "content---componentkit-docs-avoid-width-100-percentf-3-e-0a8.1c76c6627ff714830705.js",
+          "hash": "1c76c6627ff714830705",
+          "publicPath": "/componentkit/content---componentkit-docs-avoid-width-100-percentf-3-e-0a8.1c76c6627ff714830705.js"
         }
       ]
     },
     "13": {
       "js": [
         {
-          "file": "content---componentkit-docs-check-for-nile-6-b-1f0.c8c07c62082575799a85.js",
-          "hash": "c8c07c62082575799a85",
-          "publicPath": "/componentkit/content---componentkit-docs-check-for-nile-6-b-1f0.c8c07c62082575799a85.js"
+          "file": "content---componentkit-docs-break-out-composites-675-dea.483fc0e6a1411d24db87.js",
+          "hash": "483fc0e6a1411d24db87",
+          "publicPath": "/componentkit/content---componentkit-docs-break-out-composites-675-dea.483fc0e6a1411d24db87.js"
         }
       ]
     },
     "14": {
       "js": [
         {
-          "file": "content---componentkit-docs-component-api-95-f-8b4.62af833250496ae2b4ea.js",
-          "hash": "62af833250496ae2b4ea",
-          "publicPath": "/componentkit/content---componentkit-docs-component-api-95-f-8b4.62af833250496ae2b4ea.js"
+          "file": "content---componentkit-docs-check-for-nil-015-0d2.957734ee4e2431490fa0.js",
+          "hash": "957734ee4e2431490fa0",
+          "publicPath": "/componentkit/content---componentkit-docs-check-for-nil-015-0d2.957734ee4e2431490fa0.js"
         }
       ]
     },
     "15": {
       "js": [
         {
-          "file": "content---componentkit-docs-component-controllerseef-40e.792e83fb93a37a8b932b.js",
-          "hash": "792e83fb93a37a8b932b",
-          "publicPath": "/componentkit/content---componentkit-docs-component-controllerseef-40e.792e83fb93a37a8b932b.js"
+          "file": "content---componentkit-docs-component-api-81-e-a78.1c0ceb3f4ced610ba552.js",
+          "hash": "1c0ceb3f4ced610ba552",
+          "publicPath": "/componentkit/content---componentkit-docs-component-api-81-e-a78.1c0ceb3f4ced610ba552.js"
         }
       ]
     },
     "16": {
       "js": [
         {
-          "file": "content---componentkit-docs-component-hosting-view-235-777.64a15219b06917c3b80b.js",
-          "hash": "64a15219b06917c3b80b",
-          "publicPath": "/componentkit/content---componentkit-docs-component-hosting-view-235-777.64a15219b06917c3b80b.js"
+          "file": "content---componentkit-docs-component-controllers-2-f-2-88b.27b3f9de2ed46816a41d.js",
+          "hash": "27b3f9de2ed46816a41d",
+          "publicPath": "/componentkit/content---componentkit-docs-component-controllers-2-f-2-88b.27b3f9de2ed46816a41d.js"
         }
       ]
     },
     "17": {
       "js": [
         {
-          "file": "content---componentkit-docs-components-cant-be-delegatescf-1-a3c.7f7ca8642226bcdf8e81.js",
-          "hash": "7f7ca8642226bcdf8e81",
-          "publicPath": "/componentkit/content---componentkit-docs-components-cant-be-delegatescf-1-a3c.7f7ca8642226bcdf8e81.js"
+          "file": "content---componentkit-docs-component-hosting-view-5-a-5-dd2.faf1758c851f7478de77.js",
+          "hash": "faf1758c851f7478de77",
+          "publicPath": "/componentkit/content---componentkit-docs-component-hosting-view-5-a-5-dd2.faf1758c851f7478de77.js"
         }
       ]
     },
     "18": {
       "js": [
         {
-          "file": "content---componentkit-docs-composite-components-379-a96.f5bbabc6e66444f0586f.js",
-          "hash": "f5bbabc6e66444f0586f",
-          "publicPath": "/componentkit/content---componentkit-docs-composite-components-379-a96.f5bbabc6e66444f0586f.js"
+          "file": "content---componentkit-docs-components-cant-be-delegatesc-27-24e.e0146aa485f35410797d.js",
+          "hash": "e0146aa485f35410797d",
+          "publicPath": "/componentkit/content---componentkit-docs-components-cant-be-delegatesc-27-24e.e0146aa485f35410797d.js"
         }
       ]
     },
     "19": {
       "js": [
         {
-          "file": "content---componentkit-docs-datasource-basics-51-e-217.361a450356ef64a4e315.js",
-          "hash": "361a450356ef64a4e315",
-          "publicPath": "/componentkit/content---componentkit-docs-datasource-basics-51-e-217.361a450356ef64a4e315.js"
+          "file": "content---componentkit-docs-composite-components-621-083.55225c8539d4773615f9.js",
+          "hash": "55225c8539d4773615f9",
+          "publicPath": "/componentkit/content---componentkit-docs-composite-components-621-083.55225c8539d4773615f9.js"
         }
       ]
     },
     "20": {
       "js": [
         {
-          "file": "content---componentkit-docs-datasource-changeset-apia-81-2fd.529dcec492af40e5fbdc.js",
-          "hash": "529dcec492af40e5fbdc",
-          "publicPath": "/componentkit/content---componentkit-docs-datasource-changeset-apia-81-2fd.529dcec492af40e5fbdc.js"
+          "file": "content---componentkit-docs-datasource-basics-8-a-5-0b9.ec0fc09a63a97e6231a6.js",
+          "hash": "ec0fc09a63a97e6231a6",
+          "publicPath": "/componentkit/content---componentkit-docs-datasource-basics-8-a-5-0b9.ec0fc09a63a97e6231a6.js"
         }
       ]
     },
     "21": {
       "js": [
         {
-          "file": "content---componentkit-docs-datasource-dive-deeperadc-38e.cedd9874fa79b2530f4b.js",
-          "hash": "cedd9874fa79b2530f4b",
-          "publicPath": "/componentkit/content---componentkit-docs-datasource-dive-deeperadc-38e.cedd9874fa79b2530f4b.js"
+          "file": "content---componentkit-docs-datasource-changeset-apic-91-766.71112207e3437c925b6e.js",
+          "hash": "71112207e3437c925b6e",
+          "publicPath": "/componentkit/content---componentkit-docs-datasource-changeset-apic-91-766.71112207e3437c925b6e.js"
         }
       ]
     },
     "22": {
       "js": [
         {
-          "file": "content---componentkit-docs-datasource-gotchasadc-b13.f77233dff24f5d57e58a.js",
-          "hash": "f77233dff24f5d57e58a",
-          "publicPath": "/componentkit/content---componentkit-docs-datasource-gotchasadc-b13.f77233dff24f5d57e58a.js"
+          "file": "content---componentkit-docs-datasource-dive-deeper-2-a-8-f3b.31104e97054b2071763e.js",
+          "hash": "31104e97054b2071763e",
+          "publicPath": "/componentkit/content---componentkit-docs-datasource-dive-deeper-2-a-8-f3b.31104e97054b2071763e.js"
         }
       ]
     },
     "23": {
       "js": [
         {
-          "file": "content---componentkit-docs-datasource-overview-7-b-0-032.eb7d9ba41d00fb4e3d5f.js",
-          "hash": "eb7d9ba41d00fb4e3d5f",
-          "publicPath": "/componentkit/content---componentkit-docs-datasource-overview-7-b-0-032.eb7d9ba41d00fb4e3d5f.js"
+          "file": "content---componentkit-docs-datasource-gotchas-108-39f.5e78d20ff66159a7eec9.js",
+          "hash": "5e78d20ff66159a7eec9",
+          "publicPath": "/componentkit/content---componentkit-docs-datasource-gotchas-108-39f.5e78d20ff66159a7eec9.js"
         }
       ]
     },
     "24": {
       "js": [
         {
-          "file": "content---componentkit-docs-debugging-8-ec-417.0403126e7c16b32a91f2.js",
-          "hash": "0403126e7c16b32a91f2",
-          "publicPath": "/componentkit/content---componentkit-docs-debugging-8-ec-417.0403126e7c16b32a91f2.js"
+          "file": "content---componentkit-docs-datasource-overview-1-e-0-99b.81468dd7ab682da94ac9.js",
+          "hash": "81468dd7ab682da94ac9",
+          "publicPath": "/componentkit/content---componentkit-docs-datasource-overview-1-e-0-99b.81468dd7ab682da94ac9.js"
         }
       ]
     },
     "25": {
       "js": [
         {
-          "file": "content---componentkit-docs-fb-super-secretad-2-2f4.c3c778723bd246c90cd7.js",
-          "hash": "c3c778723bd246c90cd7",
-          "publicPath": "/componentkit/content---componentkit-docs-fb-super-secretad-2-2f4.c3c778723bd246c90cd7.js"
+          "file": "content---componentkit-docs-debugging-4-cd-636.173c45b42956fe5bf50f.js",
+          "hash": "173c45b42956fe5bf50f",
+          "publicPath": "/componentkit/content---componentkit-docs-debugging-4-cd-636.173c45b42956fe5bf50f.js"
         }
       ]
     },
     "26": {
       "js": [
         {
-          "file": "content---componentkit-docs-getting-startedf-69-487.67cfd073fde9685398ff.js",
-          "hash": "67cfd073fde9685398ff",
-          "publicPath": "/componentkit/content---componentkit-docs-getting-startedf-69-487.67cfd073fde9685398ff.js"
+          "file": "content---componentkit-docs-getting-started-240-4d4.bdcae7b480a391a21ce5.js",
+          "hash": "bdcae7b480a391a21ce5",
+          "publicPath": "/componentkit/content---componentkit-docs-getting-started-240-4d4.bdcae7b480a391a21ce5.js"
         }
       ]
     },
     "27": {
       "js": [
         {
-          "file": "content---componentkit-docs-indentationbf-1-4dd.29ab2202f815c26c2d01.js",
-          "hash": "29ab2202f815c26c2d01",
-          "publicPath": "/componentkit/content---componentkit-docs-indentationbf-1-4dd.29ab2202f815c26c2d01.js"
+          "file": "content---componentkit-docs-indentation-97-b-087.ea547391f06227508039.js",
+          "hash": "ea547391f06227508039",
+          "publicPath": "/componentkit/content---componentkit-docs-indentation-97-b-087.ea547391f06227508039.js"
         }
       ]
     },
     "28": {
       "js": [
         {
-          "file": "content---componentkit-docs-keep-controller-in-componentae-7-8cc.212e7cd1cbe49d8c15a0.js",
-          "hash": "212e7cd1cbe49d8c15a0",
-          "publicPath": "/componentkit/content---componentkit-docs-keep-controller-in-componentae-7-8cc.212e7cd1cbe49d8c15a0.js"
+          "file": "content---componentkit-docs-keep-controller-in-component-0-d-2-25e.30caea00b3f4c294669f.js",
+          "hash": "30caea00b3f4c294669f",
+          "publicPath": "/componentkit/content---componentkit-docs-keep-controller-in-component-0-d-2-25e.30caea00b3f4c294669f.js"
         }
       ]
     },
     "29": {
       "js": [
         {
-          "file": "content---componentkit-docs-layout-5-f-3-dcb.5257fa899b27731d4e86.js",
-          "hash": "5257fa899b27731d4e86",
-          "publicPath": "/componentkit/content---componentkit-docs-layout-5-f-3-dcb.5257fa899b27731d4e86.js"
+          "file": "content---componentkit-docs-layoutf-7-a-ff1.04b8f9d3bcc3cbe528e1.js",
+          "hash": "04b8f9d3bcc3cbe528e1",
+          "publicPath": "/componentkit/content---componentkit-docs-layoutf-7-a-ff1.04b8f9d3bcc3cbe528e1.js"
         }
       ]
     },
     "30": {
       "js": [
         {
-          "file": "content---componentkit-docs-lifecycle-methods-710-313.038af9375d4eac430e27.js",
-          "hash": "038af9375d4eac430e27",
-          "publicPath": "/componentkit/content---componentkit-docs-lifecycle-methods-710-313.038af9375d4eac430e27.js"
+          "file": "content---componentkit-docs-lifecycle-methodseca-0be.a7729ace02c235cb39a1.js",
+          "hash": "a7729ace02c235cb39a1",
+          "publicPath": "/componentkit/content---componentkit-docs-lifecycle-methodseca-0be.a7729ace02c235cb39a1.js"
         }
       ]
     },
     "31": {
       "js": [
         {
-          "file": "content---componentkit-docs-never-subclass-components-9-ed-16f.19e9d43f33e3bf5efbe8.js",
-          "hash": "19e9d43f33e3bf5efbe8",
-          "publicPath": "/componentkit/content---componentkit-docs-never-subclass-components-9-ed-16f.19e9d43f33e3bf5efbe8.js"
+          "file": "content---componentkit-docs-never-subclass-components-5-dc-89d.f99646d780021cc3bf8a.js",
+          "hash": "f99646d780021cc3bf8a",
+          "publicPath": "/componentkit/content---componentkit-docs-never-subclass-components-5-dc-89d.f99646d780021cc3bf8a.js"
         }
       ]
     },
     "32": {
       "js": [
         {
-          "file": "content---componentkit-docs-no-side-effectsefc-ffc.92dbe80e5f25be33efa6.js",
-          "hash": "92dbe80e5f25be33efa6",
-          "publicPath": "/componentkit/content---componentkit-docs-no-side-effectsefc-ffc.92dbe80e5f25be33efa6.js"
+          "file": "content---componentkit-docs-no-side-effectsdfa-665.0f3791331c1c24e8bfcf.js",
+          "hash": "0f3791331c1c24e8bfcf",
+          "publicPath": "/componentkit/content---componentkit-docs-no-side-effectsdfa-665.0f3791331c1c24e8bfcf.js"
         }
       ]
     },
     "33": {
       "js": [
         {
-          "file": "content---componentkit-docs-no-underscores-780-85d.46a817d5b5867921be7e.js",
-          "hash": "46a817d5b5867921be7e",
-          "publicPath": "/componentkit/content---componentkit-docs-no-underscores-780-85d.46a817d5b5867921be7e.js"
+          "file": "content---componentkit-docs-no-underscoresd-33-4f7.c73d4e440d056ffad6b3.js",
+          "hash": "c73d4e440d056ffad6b3",
+          "publicPath": "/componentkit/content---componentkit-docs-no-underscoresd-33-4f7.c73d4e440d056ffad6b3.js"
         }
       ]
     },
     "34": {
       "js": [
         {
-          "file": "content---componentkit-docs-pass-in-actionsffe-8ef.a225269c0cc1c82bfff5.js",
-          "hash": "a225269c0cc1c82bfff5",
-          "publicPath": "/componentkit/content---componentkit-docs-pass-in-actionsffe-8ef.a225269c0cc1c82bfff5.js"
+          "file": "content---componentkit-docs-pass-in-actions-074-baf.579f1652cff96604eb5e.js",
+          "hash": "579f1652cff96604eb5e",
+          "publicPath": "/componentkit/content---componentkit-docs-pass-in-actions-074-baf.579f1652cff96604eb5e.js"
         }
       ]
     },
     "35": {
       "js": [
         {
-          "file": "content---componentkit-docs-pass-in-immutable-objectsbcd-52a.1cb8d805b1bccc0dd4b4.js",
-          "hash": "1cb8d805b1bccc0dd4b4",
-          "publicPath": "/componentkit/content---componentkit-docs-pass-in-immutable-objectsbcd-52a.1cb8d805b1bccc0dd4b4.js"
+          "file": "content---componentkit-docs-pass-in-immutable-objects-98-d-7fa.74b19f6b7d9d91903f5d.js",
+          "hash": "74b19f6b7d9d91903f5d",
+          "publicPath": "/componentkit/content---componentkit-docs-pass-in-immutable-objects-98-d-7fa.74b19f6b7d9d91903f5d.js"
         }
       ]
     },
     "36": {
       "js": [
         {
-          "file": "content---componentkit-docs-philosophy-1-ce-556.57e2aa26672ce987277d.js",
-          "hash": "57e2aa26672ce987277d",
-          "publicPath": "/componentkit/content---componentkit-docs-philosophy-1-ce-556.57e2aa26672ce987277d.js"
+          "file": "content---componentkit-docs-philosophy-86-b-339.daa4c86260750c0c938c.js",
+          "hash": "daa4c86260750c0c938c",
+          "publicPath": "/componentkit/content---componentkit-docs-philosophy-86-b-339.daa4c86260750c0c938c.js"
         }
       ]
     },
     "37": {
       "js": [
         {
-          "file": "content---componentkit-docs-responder-chain-71-a-a4f.3782c0b4ed3c580e7bcb.js",
-          "hash": "3782c0b4ed3c580e7bcb",
-          "publicPath": "/componentkit/content---componentkit-docs-responder-chain-71-a-a4f.3782c0b4ed3c580e7bcb.js"
+          "file": "content---componentkit-docs-responder-chain-423-cfe.13446c7b3a03df9a1f72.js",
+          "hash": "13446c7b3a03df9a1f72",
+          "publicPath": "/componentkit/content---componentkit-docs-responder-chain-423-cfe.13446c7b3a03df9a1f72.js"
         }
       ]
     },
     "38": {
       "js": [
         {
-          "file": "content---componentkit-docs-scopes-112-d47.e17caaaf4824dfa9865d.js",
-          "hash": "e17caaaf4824dfa9865d",
-          "publicPath": "/componentkit/content---componentkit-docs-scopes-112-d47.e17caaaf4824dfa9865d.js"
+          "file": "content---componentkit-docs-scopes-14-d-211.6595b3a2b9d2214587c7.js",
+          "hash": "6595b3a2b9d2214587c7",
+          "publicPath": "/componentkit/content---componentkit-docs-scopes-14-d-211.6595b3a2b9d2214587c7.js"
         }
       ]
     },
     "39": {
       "js": [
         {
-          "file": "content---componentkit-docs-stated-4-f-7f9.c141173e825ed827e856.js",
-          "hash": "c141173e825ed827e856",
-          "publicPath": "/componentkit/content---componentkit-docs-stated-4-f-7f9.c141173e825ed827e856.js"
+          "file": "content---componentkit-docs-state-881-c75.f0bb61b8dd37abc1dcd3.js",
+          "hash": "f0bb61b8dd37abc1dcd3",
+          "publicPath": "/componentkit/content---componentkit-docs-state-881-c75.f0bb61b8dd37abc1dcd3.js"
         }
       ]
     },
     "40": {
       "js": [
         {
-          "file": "content---componentkit-docs-under-300-linesaff-d84.3ff46526fc67a6cbc7f6.js",
-          "hash": "3ff46526fc67a6cbc7f6",
-          "publicPath": "/componentkit/content---componentkit-docs-under-300-linesaff-d84.3ff46526fc67a6cbc7f6.js"
+          "file": "content---componentkit-docs-under-300-linesfcb-529.5f8326694f294eab2590.js",
+          "hash": "5f8326694f294eab2590",
+          "publicPath": "/componentkit/content---componentkit-docs-under-300-linesfcb-529.5f8326694f294eab2590.js"
         }
       ]
     },
     "41": {
       "js": [
         {
-          "file": "content---componentkit-docs-use-designated-initializer-styleb-3-b-b16.d98bee4ce15e46fb4a06.js",
-          "hash": "d98bee4ce15e46fb4a06",
-          "publicPath": "/componentkit/content---componentkit-docs-use-designated-initializer-styleb-3-b-b16.d98bee4ce15e46fb4a06.js"
+          "file": "content---componentkit-docs-use-designated-initializer-style-7-c-3-c98.edcd8ed9af1d84148325.js",
+          "hash": "edcd8ed9af1d84148325",
+          "publicPath": "/componentkit/content---componentkit-docs-use-designated-initializer-style-7-c-3-c98.edcd8ed9af1d84148325.js"
         }
       ]
     },
     "42": {
       "js": [
         {
-          "file": "content---componentkit-docs-uses-028-828.5b21bc35c71394d206eb.js",
-          "hash": "5b21bc35c71394d206eb",
-          "publicPath": "/componentkit/content---componentkit-docs-uses-028-828.5b21bc35c71394d206eb.js"
+          "file": "content---componentkit-docs-uses-4-b-4-19f.6664fa9a924d8d6280f4.js",
+          "hash": "6664fa9a924d8d6280f4",
+          "publicPath": "/componentkit/content---componentkit-docs-uses-4-b-4-19f.6664fa9a924d8d6280f4.js"
         }
       ]
     },
     "43": {
       "js": [
         {
-          "file": "content---componentkit-docs-views-57-a-e93.214f0d02142ded24c7b6.js",
-          "hash": "214f0d02142ded24c7b6",
-          "publicPath": "/componentkit/content---componentkit-docs-views-57-a-e93.214f0d02142ded24c7b6.js"
+          "file": "content---componentkit-docs-viewsf-64-b27.1c71fd825e88ebd9924b.js",
+          "hash": "1c71fd825e88ebd9924b",
+          "publicPath": "/componentkit/content---componentkit-docs-viewsf-64-b27.1c71fd825e88ebd9924b.js"
         }
       ]
     },
     "44": {
       "js": [
         {
-          "file": "content---componentkit-docs-why-cppdd-5-67c.d5e877d4a605331becc9.js",
-          "hash": "d5e877d4a605331becc9",
-          "publicPath": "/componentkit/content---componentkit-docs-why-cppdd-5-67c.d5e877d4a605331becc9.js"
+          "file": "content---componentkit-docs-why-cpp-4-de-fb5.ed25dbc3c102360f9936.js",
+          "hash": "ed25dbc3c102360f9936",
+          "publicPath": "/componentkit/content---componentkit-docs-why-cpp-4-de-fb5.ed25dbc3c102360f9936.js"
         }
       ]
     },
     "45": {
       "js": [
         {
-          "file": "docsMetadata---componentkit-docs-4-dd-28c.566daf441d61480b58f0.js",
-          "hash": "566daf441d61480b58f0",
-          "publicPath": "/componentkit/docsMetadata---componentkit-docs-4-dd-28c.566daf441d61480b58f0.js"
+          "file": "docsMetadata---componentkit-docsbec-70c.ca9a64d506e9015b7f9a.js",
+          "hash": "ca9a64d506e9015b7f9a",
+          "publicPath": "/componentkit/docsMetadata---componentkit-docsbec-70c.ca9a64d506e9015b7f9a.js"
         }
       ]
     },
     "46": {
       "css": [
         {
-          "file": "main.6384f6d5f92888809285.css",
-          "hash": "6384f6d5f92888809285",
-          "publicPath": "/componentkit/main.6384f6d5f92888809285.css"
+          "file": "main.93934e8217a9cf1c837a.css",
+          "hash": "93934e8217a9cf1c837a",
+          "publicPath": "/componentkit/main.93934e8217a9cf1c837a.css"
         }
       ],
       "js": [
         {
-          "file": "main.6384f6d5f92888809285.js",
-          "hash": "6384f6d5f92888809285",
-          "publicPath": "/componentkit/main.6384f6d5f92888809285.js"
+          "file": "main.93934e8217a9cf1c837a.js",
+          "hash": "93934e8217a9cf1c837a",
+          "publicPath": "/componentkit/main.93934e8217a9cf1c837a.js"
         }
       ]
     },
     "47": {
       "js": [
         {
-          "file": "metadata---componentkit-be-2-812.ee834b28e0e19ec3aad3.js",
-          "hash": "ee834b28e0e19ec3aad3",
-          "publicPath": "/componentkit/metadata---componentkit-be-2-812.ee834b28e0e19ec3aad3.js"
+          "file": "metadata---componentkit-c-45-69f.8374d8f10ee3cd6df25c.js",
+          "hash": "8374d8f10ee3cd6df25c",
+          "publicPath": "/componentkit/metadata---componentkit-c-45-69f.8374d8f10ee3cd6df25c.js"
         }
       ]
     },
     "48": {
       "js": [
         {
-          "file": "metadata---componentkit-docs-actions-148-4d6.c2e62d5d92e68960fee5.js",
-          "hash": "c2e62d5d92e68960fee5",
-          "publicPath": "/componentkit/metadata---componentkit-docs-actions-148-4d6.c2e62d5d92e68960fee5.js"
+          "file": "metadata---componentkit-docs-actionsb-2-b-a21.027244db3a09887bae8a.js",
+          "hash": "027244db3a09887bae8a",
+          "publicPath": "/componentkit/metadata---componentkit-docs-actionsb-2-b-a21.027244db3a09887bae8a.js"
         }
       ]
     },
     "49": {
       "js": [
         {
-          "file": "metadata---componentkit-docs-advanced-views-14-c-4c3.1346882941dc84a4af13.js",
-          "hash": "1346882941dc84a4af13",
-          "publicPath": "/componentkit/metadata---componentkit-docs-advanced-views-14-c-4c3.1346882941dc84a4af13.js"
+          "file": "metadata---componentkit-docs-advanced-views-857-0ea.5b33d39853a2f227d833.js",
+          "hash": "5b33d39853a2f227d833",
+          "publicPath": "/componentkit/metadata---componentkit-docs-advanced-views-857-0ea.5b33d39853a2f227d833.js"
         }
       ]
     },
     "50": {
       "js": [
         {
-          "file": "metadata---componentkit-docs-animation-361-b58.134c8356e1f05f02fdf7.js",
-          "hash": "134c8356e1f05f02fdf7",
-          "publicPath": "/componentkit/metadata---componentkit-docs-animation-361-b58.134c8356e1f05f02fdf7.js"
+          "file": "metadata---componentkit-docs-animationbb-8-fd4.05e39040f55b71c8d124.js",
+          "hash": "05e39040f55b71c8d124",
+          "publicPath": "/componentkit/metadata---componentkit-docs-animationbb-8-fd4.05e39040f55b71c8d124.js"
         }
       ]
     },
     "51": {
       "js": [
         {
-          "file": "metadata---componentkit-docs-avoid-excessive-branchingd-98-61e.d43b0c6e80c49445f2a7.js",
-          "hash": "d43b0c6e80c49445f2a7",
-          "publicPath": "/componentkit/metadata---componentkit-docs-avoid-excessive-branchingd-98-61e.d43b0c6e80c49445f2a7.js"
+          "file": "metadata---componentkit-docs-avoid-excessive-branching-85-a-125.fb4334a54cf537cace29.js",
+          "hash": "fb4334a54cf537cace29",
+          "publicPath": "/componentkit/metadata---componentkit-docs-avoid-excessive-branching-85-a-125.fb4334a54cf537cace29.js"
         }
       ]
     },
     "52": {
       "js": [
         {
-          "file": "metadata---componentkit-docs-avoid-local-variables-46-a-600.b49c1fa7a55c59511b8c.js",
-          "hash": "b49c1fa7a55c59511b8c",
-          "publicPath": "/componentkit/metadata---componentkit-docs-avoid-local-variables-46-a-600.b49c1fa7a55c59511b8c.js"
+          "file": "metadata---componentkit-docs-avoid-local-variables-7-ef-e00.7a3cd8557f22a09f6a05.js",
+          "hash": "7a3cd8557f22a09f6a05",
+          "publicPath": "/componentkit/metadata---componentkit-docs-avoid-local-variables-7-ef-e00.7a3cd8557f22a09f6a05.js"
         }
       ]
     },
     "53": {
       "js": [
         {
-          "file": "metadata---componentkit-docs-avoid-overrides-6-d-4-0d9.4e251b35bce29c452f79.js",
-          "hash": "4e251b35bce29c452f79",
-          "publicPath": "/componentkit/metadata---componentkit-docs-avoid-overrides-6-d-4-0d9.4e251b35bce29c452f79.js"
+          "file": "metadata---componentkit-docs-avoid-overrides-3-d-0-b6f.9bba5feaff94a230dd33.js",
+          "hash": "9bba5feaff94a230dd33",
+          "publicPath": "/componentkit/metadata---componentkit-docs-avoid-overrides-3-d-0-b6f.9bba5feaff94a230dd33.js"
         }
       ]
     },
     "54": {
       "js": [
         {
-          "file": "metadata---componentkit-docs-avoid-push-back-69-a-b31.5abd4c93ad1da082f17c.js",
-          "hash": "5abd4c93ad1da082f17c",
-          "publicPath": "/componentkit/metadata---componentkit-docs-avoid-push-back-69-a-b31.5abd4c93ad1da082f17c.js"
+          "file": "metadata---componentkit-docs-avoid-push-back-6-cf-ee1.7f5f8cabe3e0fe7f9913.js",
+          "hash": "7f5f8cabe3e0fe7f9913",
+          "publicPath": "/componentkit/metadata---componentkit-docs-avoid-push-back-6-cf-ee1.7f5f8cabe3e0fe7f9913.js"
         }
       ]
     },
     "55": {
       "js": [
         {
-          "file": "metadata---componentkit-docs-avoid-single-use-constants-522-b77.bc19c6ba70b841c44ff8.js",
-          "hash": "bc19c6ba70b841c44ff8",
-          "publicPath": "/componentkit/metadata---componentkit-docs-avoid-single-use-constants-522-b77.bc19c6ba70b841c44ff8.js"
+          "file": "metadata---componentkit-docs-avoid-single-use-constants-995-8db.30c9e97150383d0ebf32.js",
+          "hash": "30c9e97150383d0ebf32",
+          "publicPath": "/componentkit/metadata---componentkit-docs-avoid-single-use-constants-995-8db.30c9e97150383d0ebf32.js"
         }
       ]
     },
     "56": {
       "js": [
         {
-          "file": "metadata---componentkit-docs-avoid-width-100-percent-0-fd-ad3.859e0309c8710d2c907c.js",
-          "hash": "859e0309c8710d2c907c",
-          "publicPath": "/componentkit/metadata---componentkit-docs-avoid-width-100-percent-0-fd-ad3.859e0309c8710d2c907c.js"
+          "file": "metadata---componentkit-docs-avoid-width-100-percent-4-c-8-c71.2d5144ce822733ce1171.js",
+          "hash": "2d5144ce822733ce1171",
+          "publicPath": "/componentkit/metadata---componentkit-docs-avoid-width-100-percent-4-c-8-c71.2d5144ce822733ce1171.js"
         }
       ]
     },
     "57": {
       "js": [
         {
-          "file": "metadata---componentkit-docs-break-out-composites-330-999.35199e489a61316a3b5d.js",
-          "hash": "35199e489a61316a3b5d",
-          "publicPath": "/componentkit/metadata---componentkit-docs-break-out-composites-330-999.35199e489a61316a3b5d.js"
+          "file": "metadata---componentkit-docs-break-out-composites-01-e-4ee.f96013a606f525379660.js",
+          "hash": "f96013a606f525379660",
+          "publicPath": "/componentkit/metadata---componentkit-docs-break-out-composites-01-e-4ee.f96013a606f525379660.js"
         }
       ]
     },
     "58": {
       "js": [
         {
-          "file": "metadata---componentkit-docs-check-for-nilba-0-38b.c40260e784b4bd8c7eaf.js",
-          "hash": "c40260e784b4bd8c7eaf",
-          "publicPath": "/componentkit/metadata---componentkit-docs-check-for-nilba-0-38b.c40260e784b4bd8c7eaf.js"
+          "file": "metadata---componentkit-docs-check-for-nilf-79-689.5b3ad9b3ce0d35975f18.js",
+          "hash": "5b3ad9b3ce0d35975f18",
+          "publicPath": "/componentkit/metadata---componentkit-docs-check-for-nilf-79-689.5b3ad9b3ce0d35975f18.js"
         }
       ]
     },
     "59": {
       "js": [
         {
-          "file": "metadata---componentkit-docs-component-api-6-da-142.629628da4ce9166e8dd3.js",
-          "hash": "629628da4ce9166e8dd3",
-          "publicPath": "/componentkit/metadata---componentkit-docs-component-api-6-da-142.629628da4ce9166e8dd3.js"
+          "file": "metadata---componentkit-docs-component-apic-7-f-ca0.08c3553f3e6aee4e0513.js",
+          "hash": "08c3553f3e6aee4e0513",
+          "publicPath": "/componentkit/metadata---componentkit-docs-component-apic-7-f-ca0.08c3553f3e6aee4e0513.js"
         }
       ]
     },
     "60": {
       "js": [
         {
-          "file": "metadata---componentkit-docs-component-controllers-76-f-60f.c66b559cbe9c0298afe1.js",
-          "hash": "c66b559cbe9c0298afe1",
-          "publicPath": "/componentkit/metadata---componentkit-docs-component-controllers-76-f-60f.c66b559cbe9c0298afe1.js"
+          "file": "metadata---componentkit-docs-component-controllersf-29-581.7075d97ae52278df6b1e.js",
+          "hash": "7075d97ae52278df6b1e",
+          "publicPath": "/componentkit/metadata---componentkit-docs-component-controllersf-29-581.7075d97ae52278df6b1e.js"
         }
       ]
     },
     "61": {
       "js": [
         {
-          "file": "metadata---componentkit-docs-component-hosting-view-6-ce-13b.4703e971e3ed0cf1b1f9.js",
-          "hash": "4703e971e3ed0cf1b1f9",
-          "publicPath": "/componentkit/metadata---componentkit-docs-component-hosting-view-6-ce-13b.4703e971e3ed0cf1b1f9.js"
+          "file": "metadata---componentkit-docs-component-hosting-viewf-0-b-99a.91f34dcf5aa9de8adc0b.js",
+          "hash": "91f34dcf5aa9de8adc0b",
+          "publicPath": "/componentkit/metadata---componentkit-docs-component-hosting-viewf-0-b-99a.91f34dcf5aa9de8adc0b.js"
         }
       ]
     },
     "62": {
       "js": [
         {
-          "file": "metadata---componentkit-docs-components-cant-be-delegates-042-201.7d18cc0b9fb94a4a44ff.js",
-          "hash": "7d18cc0b9fb94a4a44ff",
-          "publicPath": "/componentkit/metadata---componentkit-docs-components-cant-be-delegates-042-201.7d18cc0b9fb94a4a44ff.js"
+          "file": "metadata---componentkit-docs-components-cant-be-delegatesd-77-6d3.02b0d43d627008ee83ea.js",
+          "hash": "02b0d43d627008ee83ea",
+          "publicPath": "/componentkit/metadata---componentkit-docs-components-cant-be-delegatesd-77-6d3.02b0d43d627008ee83ea.js"
         }
       ]
     },
     "63": {
       "js": [
         {
-          "file": "metadata---componentkit-docs-composite-components-9-b-9-b55.0c8fe9ba7e1b21733e5d.js",
-          "hash": "0c8fe9ba7e1b21733e5d",
-          "publicPath": "/componentkit/metadata---componentkit-docs-composite-components-9-b-9-b55.0c8fe9ba7e1b21733e5d.js"
+          "file": "metadata---componentkit-docs-composite-components-138-730.2995d208f11c4965fd3c.js",
+          "hash": "2995d208f11c4965fd3c",
+          "publicPath": "/componentkit/metadata---componentkit-docs-composite-components-138-730.2995d208f11c4965fd3c.js"
         }
       ]
     },
     "64": {
       "js": [
         {
-          "file": "metadata---componentkit-docs-datasource-basics-299-d76.571ce07c94128a245459.js",
-          "hash": "571ce07c94128a245459",
-          "publicPath": "/componentkit/metadata---componentkit-docs-datasource-basics-299-d76.571ce07c94128a245459.js"
+          "file": "metadata---componentkit-docs-datasource-basics-3-d-4-b06.61b2eaa92919eeb98255.js",
+          "hash": "61b2eaa92919eeb98255",
+          "publicPath": "/componentkit/metadata---componentkit-docs-datasource-basics-3-d-4-b06.61b2eaa92919eeb98255.js"
         }
       ]
     },
     "65": {
       "js": [
         {
-          "file": "metadata---componentkit-docs-datasource-changeset-apie-13-01b.01623f6ea72b9ebf7664.js",
-          "hash": "01623f6ea72b9ebf7664",
-          "publicPath": "/componentkit/metadata---componentkit-docs-datasource-changeset-apie-13-01b.01623f6ea72b9ebf7664.js"
+          "file": "metadata---componentkit-docs-datasource-changeset-apib-1-d-3a1.b54a14759e2386272d8e.js",
+          "hash": "b54a14759e2386272d8e",
+          "publicPath": "/componentkit/metadata---componentkit-docs-datasource-changeset-apib-1-d-3a1.b54a14759e2386272d8e.js"
         }
       ]
     },
     "66": {
       "js": [
         {
-          "file": "metadata---componentkit-docs-datasource-dive-deeper-2-e-1-56c.935cd507bf21ac131d12.js",
-          "hash": "935cd507bf21ac131d12",
-          "publicPath": "/componentkit/metadata---componentkit-docs-datasource-dive-deeper-2-e-1-56c.935cd507bf21ac131d12.js"
+          "file": "metadata---componentkit-docs-datasource-dive-deeperfc-1-6d3.0803f1ebce9371b728ec.js",
+          "hash": "0803f1ebce9371b728ec",
+          "publicPath": "/componentkit/metadata---componentkit-docs-datasource-dive-deeperfc-1-6d3.0803f1ebce9371b728ec.js"
         }
       ]
     },
     "67": {
       "js": [
         {
-          "file": "metadata---componentkit-docs-datasource-gotchasd-76-fef.e27399c71f42671b7ca9.js",
-          "hash": "e27399c71f42671b7ca9",
-          "publicPath": "/componentkit/metadata---componentkit-docs-datasource-gotchasd-76-fef.e27399c71f42671b7ca9.js"
+          "file": "metadata---componentkit-docs-datasource-gotchas-019-f9b.65d53cc6d5276e24b46b.js",
+          "hash": "65d53cc6d5276e24b46b",
+          "publicPath": "/componentkit/metadata---componentkit-docs-datasource-gotchas-019-f9b.65d53cc6d5276e24b46b.js"
         }
       ]
     },
     "68": {
       "js": [
         {
-          "file": "metadata---componentkit-docs-datasource-overview-5-f-9-b61.993a4311dfbb1c12c745.js",
-          "hash": "993a4311dfbb1c12c745",
-          "publicPath": "/componentkit/metadata---componentkit-docs-datasource-overview-5-f-9-b61.993a4311dfbb1c12c745.js"
+          "file": "metadata---componentkit-docs-datasource-overviewcc-5-b9a.ddcf5982237496883bf2.js",
+          "hash": "ddcf5982237496883bf2",
+          "publicPath": "/componentkit/metadata---componentkit-docs-datasource-overviewcc-5-b9a.ddcf5982237496883bf2.js"
         }
       ]
     },
     "69": {
       "js": [
         {
-          "file": "metadata---componentkit-docs-debugginga-4-c-8d4.90eda11e26055e9fa53a.js",
-          "hash": "90eda11e26055e9fa53a",
-          "publicPath": "/componentkit/metadata---componentkit-docs-debugginga-4-c-8d4.90eda11e26055e9fa53a.js"
+          "file": "metadata---componentkit-docs-debugging-532-f25.4505c003eaa1504e5c79.js",
+          "hash": "4505c003eaa1504e5c79",
+          "publicPath": "/componentkit/metadata---componentkit-docs-debugging-532-f25.4505c003eaa1504e5c79.js"
         }
       ]
     },
     "70": {
       "js": [
         {
-          "file": "metadata---componentkit-docs-fb-super-secret-209-a36.c5c3c6ad8d42c89c628d.js",
-          "hash": "c5c3c6ad8d42c89c628d",
-          "publicPath": "/componentkit/metadata---componentkit-docs-fb-super-secret-209-a36.c5c3c6ad8d42c89c628d.js"
+          "file": "metadata---componentkit-docs-getting-startedcb-4-d9c.a1d75718a4be4fe73b02.js",
+          "hash": "a1d75718a4be4fe73b02",
+          "publicPath": "/componentkit/metadata---componentkit-docs-getting-startedcb-4-d9c.a1d75718a4be4fe73b02.js"
         }
       ]
     },
     "71": {
       "js": [
         {
-          "file": "metadata---componentkit-docs-getting-started-05-d-61b.39bd201dc7036dd5d882.js",
-          "hash": "39bd201dc7036dd5d882",
-          "publicPath": "/componentkit/metadata---componentkit-docs-getting-started-05-d-61b.39bd201dc7036dd5d882.js"
+          "file": "metadata---componentkit-docs-indentationaa-0-093.7a2eabd2e181d6e1eed9.js",
+          "hash": "7a2eabd2e181d6e1eed9",
+          "publicPath": "/componentkit/metadata---componentkit-docs-indentationaa-0-093.7a2eabd2e181d6e1eed9.js"
         }
       ]
     },
     "72": {
       "js": [
         {
-          "file": "metadata---componentkit-docs-indentationfff-7cc.ecf962be0772284f4bfe.js",
-          "hash": "ecf962be0772284f4bfe",
-          "publicPath": "/componentkit/metadata---componentkit-docs-indentationfff-7cc.ecf962be0772284f4bfe.js"
+          "file": "metadata---componentkit-docs-keep-controller-in-component-9-d-5-01c.e8bd2077e5b6ba7133f2.js",
+          "hash": "e8bd2077e5b6ba7133f2",
+          "publicPath": "/componentkit/metadata---componentkit-docs-keep-controller-in-component-9-d-5-01c.e8bd2077e5b6ba7133f2.js"
         }
       ]
     },
     "73": {
       "js": [
         {
-          "file": "metadata---componentkit-docs-keep-controller-in-component-4-c-7-bf2.6611dd929c055ba1d8b7.js",
-          "hash": "6611dd929c055ba1d8b7",
-          "publicPath": "/componentkit/metadata---componentkit-docs-keep-controller-in-component-4-c-7-bf2.6611dd929c055ba1d8b7.js"
+          "file": "metadata---componentkit-docs-layoute-10-d05.ecd9ed50f139cbae9a47.js",
+          "hash": "ecd9ed50f139cbae9a47",
+          "publicPath": "/componentkit/metadata---componentkit-docs-layoute-10-d05.ecd9ed50f139cbae9a47.js"
         }
       ]
     },
     "74": {
       "js": [
         {
-          "file": "metadata---componentkit-docs-layout-181-a41.6a32beb9c1cb1ae49283.js",
-          "hash": "6a32beb9c1cb1ae49283",
-          "publicPath": "/componentkit/metadata---componentkit-docs-layout-181-a41.6a32beb9c1cb1ae49283.js"
+          "file": "metadata---componentkit-docs-lifecycle-methods-488-106.6e7ff15902f1ea21e895.js",
+          "hash": "6e7ff15902f1ea21e895",
+          "publicPath": "/componentkit/metadata---componentkit-docs-lifecycle-methods-488-106.6e7ff15902f1ea21e895.js"
         }
       ]
     },
     "75": {
       "js": [
         {
-          "file": "metadata---componentkit-docs-lifecycle-methods-204-cb8.7a33b46fe64242b4abea.js",
-          "hash": "7a33b46fe64242b4abea",
-          "publicPath": "/componentkit/metadata---componentkit-docs-lifecycle-methods-204-cb8.7a33b46fe64242b4abea.js"
+          "file": "metadata---componentkit-docs-never-subclass-components-680-8a7.22b505b720a113da86f8.js",
+          "hash": "22b505b720a113da86f8",
+          "publicPath": "/componentkit/metadata---componentkit-docs-never-subclass-components-680-8a7.22b505b720a113da86f8.js"
         }
       ]
     },
     "76": {
       "js": [
         {
-          "file": "metadata---componentkit-docs-never-subclass-components-0-d-8-967.d071984662df697c3011.js",
-          "hash": "d071984662df697c3011",
-          "publicPath": "/componentkit/metadata---componentkit-docs-never-subclass-components-0-d-8-967.d071984662df697c3011.js"
+          "file": "metadata---componentkit-docs-no-side-effects-100-6bc.9cafc3fa941530112bc1.js",
+          "hash": "9cafc3fa941530112bc1",
+          "publicPath": "/componentkit/metadata---componentkit-docs-no-side-effects-100-6bc.9cafc3fa941530112bc1.js"
         }
       ]
     },
     "77": {
       "js": [
         {
-          "file": "metadata---componentkit-docs-no-side-effectsaa-2-89c.49a7152e16c98e8802ee.js",
-          "hash": "49a7152e16c98e8802ee",
-          "publicPath": "/componentkit/metadata---componentkit-docs-no-side-effectsaa-2-89c.49a7152e16c98e8802ee.js"
+          "file": "metadata---componentkit-docs-no-underscorese-45-e05.fca89b69ae45bf226600.js",
+          "hash": "fca89b69ae45bf226600",
+          "publicPath": "/componentkit/metadata---componentkit-docs-no-underscorese-45-e05.fca89b69ae45bf226600.js"
         }
       ]
     },
     "78": {
       "js": [
         {
-          "file": "metadata---componentkit-docs-no-underscores-609-381.5336d2a9c4f749d7ec91.js",
-          "hash": "5336d2a9c4f749d7ec91",
-          "publicPath": "/componentkit/metadata---componentkit-docs-no-underscores-609-381.5336d2a9c4f749d7ec91.js"
+          "file": "metadata---componentkit-docs-pass-in-actionscef-0bc.213bd84d1017e55123cb.js",
+          "hash": "213bd84d1017e55123cb",
+          "publicPath": "/componentkit/metadata---componentkit-docs-pass-in-actionscef-0bc.213bd84d1017e55123cb.js"
         }
       ]
     },
     "79": {
       "js": [
         {
-          "file": "metadata---componentkit-docs-pass-in-actions-980-bb5.1b2f53021504880cf06f.js",
-          "hash": "1b2f53021504880cf06f",
-          "publicPath": "/componentkit/metadata---componentkit-docs-pass-in-actions-980-bb5.1b2f53021504880cf06f.js"
+          "file": "metadata---componentkit-docs-pass-in-immutable-objects-45-d-f27.12ca853e6292ae01589b.js",
+          "hash": "12ca853e6292ae01589b",
+          "publicPath": "/componentkit/metadata---componentkit-docs-pass-in-immutable-objects-45-d-f27.12ca853e6292ae01589b.js"
         }
       ]
     },
     "80": {
       "js": [
         {
-          "file": "metadata---componentkit-docs-pass-in-immutable-objects-413-3f4.2e211248e7e5c3d58615.js",
-          "hash": "2e211248e7e5c3d58615",
-          "publicPath": "/componentkit/metadata---componentkit-docs-pass-in-immutable-objects-413-3f4.2e211248e7e5c3d58615.js"
+          "file": "metadata---componentkit-docs-philosophyb-30-fac.794a10b0304171956434.js",
+          "hash": "794a10b0304171956434",
+          "publicPath": "/componentkit/metadata---componentkit-docs-philosophyb-30-fac.794a10b0304171956434.js"
         }
       ]
     },
     "81": {
       "js": [
         {
-          "file": "metadata---componentkit-docs-philosophy-33-b-804.a4ff218d592f028989a7.js",
-          "hash": "a4ff218d592f028989a7",
-          "publicPath": "/componentkit/metadata---componentkit-docs-philosophy-33-b-804.a4ff218d592f028989a7.js"
+          "file": "metadata---componentkit-docs-responder-chainc-53-406.b6d66985bd41176120b3.js",
+          "hash": "b6d66985bd41176120b3",
+          "publicPath": "/componentkit/metadata---componentkit-docs-responder-chainc-53-406.b6d66985bd41176120b3.js"
         }
       ]
     },
     "82": {
       "js": [
         {
-          "file": "metadata---componentkit-docs-responder-chain-80-c-e60.66425ab09e5b942cfd1f.js",
-          "hash": "66425ab09e5b942cfd1f",
-          "publicPath": "/componentkit/metadata---componentkit-docs-responder-chain-80-c-e60.66425ab09e5b942cfd1f.js"
+          "file": "metadata---componentkit-docs-scopes-6-d-7-7ae.4d2f41fd64f7f4585b18.js",
+          "hash": "4d2f41fd64f7f4585b18",
+          "publicPath": "/componentkit/metadata---componentkit-docs-scopes-6-d-7-7ae.4d2f41fd64f7f4585b18.js"
         }
       ]
     },
     "83": {
       "js": [
         {
-          "file": "metadata---componentkit-docs-scopescea-6e7.24aa36cf602a01bdf33c.js",
-          "hash": "24aa36cf602a01bdf33c",
-          "publicPath": "/componentkit/metadata---componentkit-docs-scopescea-6e7.24aa36cf602a01bdf33c.js"
+          "file": "metadata---componentkit-docs-state-44-b-fb9.a60637f5bbf9ade3caa2.js",
+          "hash": "a60637f5bbf9ade3caa2",
+          "publicPath": "/componentkit/metadata---componentkit-docs-state-44-b-fb9.a60637f5bbf9ade3caa2.js"
         }
       ]
     },
     "84": {
       "js": [
         {
-          "file": "metadata---componentkit-docs-statebbd-4a6.052e7507a4976b6e967f.js",
-          "hash": "052e7507a4976b6e967f",
-          "publicPath": "/componentkit/metadata---componentkit-docs-statebbd-4a6.052e7507a4976b6e967f.js"
+          "file": "metadata---componentkit-docs-under-300-linesde-4-335.c2068700e14315d51e01.js",
+          "hash": "c2068700e14315d51e01",
+          "publicPath": "/componentkit/metadata---componentkit-docs-under-300-linesde-4-335.c2068700e14315d51e01.js"
         }
       ]
     },
     "85": {
       "js": [
         {
-          "file": "metadata---componentkit-docs-under-300-lines-131-166.66e7ce3e6a4e8913949b.js",
-          "hash": "66e7ce3e6a4e8913949b",
-          "publicPath": "/componentkit/metadata---componentkit-docs-under-300-lines-131-166.66e7ce3e6a4e8913949b.js"
+          "file": "metadata---componentkit-docs-use-designated-initializer-style-74-b-365.ba01a4bf1e7270566832.js",
+          "hash": "ba01a4bf1e7270566832",
+          "publicPath": "/componentkit/metadata---componentkit-docs-use-designated-initializer-style-74-b-365.ba01a4bf1e7270566832.js"
         }
       ]
     },
     "86": {
       "js": [
         {
-          "file": "metadata---componentkit-docs-use-designated-initializer-style-47-e-cb3.a3a38965ada43118cf2c.js",
-          "hash": "a3a38965ada43118cf2c",
-          "publicPath": "/componentkit/metadata---componentkit-docs-use-designated-initializer-style-47-e-cb3.a3a38965ada43118cf2c.js"
+          "file": "metadata---componentkit-docs-usese-95-d5d.99d4b5554135bdec7fbb.js",
+          "hash": "99d4b5554135bdec7fbb",
+          "publicPath": "/componentkit/metadata---componentkit-docs-usese-95-d5d.99d4b5554135bdec7fbb.js"
         }
       ]
     },
     "87": {
       "js": [
         {
-          "file": "metadata---componentkit-docs-usesdac-678.ac7889cd4c8857bf5c84.js",
-          "hash": "ac7889cd4c8857bf5c84",
-          "publicPath": "/componentkit/metadata---componentkit-docs-usesdac-678.ac7889cd4c8857bf5c84.js"
+          "file": "metadata---componentkit-docs-viewsaa-6-3b9.1005472baa879cb14455.js",
+          "hash": "1005472baa879cb14455",
+          "publicPath": "/componentkit/metadata---componentkit-docs-viewsaa-6-3b9.1005472baa879cb14455.js"
         }
       ]
     },
     "88": {
       "js": [
         {
-          "file": "metadata---componentkit-docs-views-33-c-f85.dfd9c30d587ed6f6a272.js",
-          "hash": "dfd9c30d587ed6f6a272",
-          "publicPath": "/componentkit/metadata---componentkit-docs-views-33-c-f85.dfd9c30d587ed6f6a272.js"
+          "file": "metadata---componentkit-docs-why-cppce-0-54b.cc2a2272a806120f69f1.js",
+          "hash": "cc2a2272a806120f69f1",
+          "publicPath": "/componentkit/metadata---componentkit-docs-why-cppce-0-54b.cc2a2272a806120f69f1.js"
         }
       ]
     },
     "89": {
       "js": [
         {
-          "file": "metadata---componentkit-docs-why-cpp-931-6ee.a53841c19ecb5663fecb.js",
-          "hash": "a53841c19ecb5663fecb",
-          "publicPath": "/componentkit/metadata---componentkit-docs-why-cpp-931-6ee.a53841c19ecb5663fecb.js"
+          "file": "metadata---componentkit-support-121-8fb.d6870cbd8b17930beed9.js",
+          "hash": "d6870cbd8b17930beed9",
+          "publicPath": "/componentkit/metadata---componentkit-support-121-8fb.d6870cbd8b17930beed9.js"
         }
       ]
     },
     "90": {
       "js": [
         {
-          "file": "metadata---componentkit-support-215-d8d.ad754dbdda10a2d126e1.js",
-          "hash": "ad754dbdda10a2d126e1",
-          "publicPath": "/componentkit/metadata---componentkit-support-215-d8d.ad754dbdda10a2d126e1.js"
-        }
-      ]
-    },
-    "91": {
-      "js": [
-        {
-          "file": "runtime~main.80ab72986065321a8e64.js",
-          "hash": "80ab72986065321a8e64",
-          "publicPath": "/componentkit/runtime~main.80ab72986065321a8e64.js"
+          "file": "runtime~main.33916becc47c389fe008.js",
+          "hash": "33916becc47c389fe008",
+          "publicPath": "/componentkit/runtime~main.33916becc47c389fe008.js"
         }
       ]
     }

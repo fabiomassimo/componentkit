@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[47],{37:function(o){o.exports={permalink:"/componentkit/",source:"/Users/fabiomilano/fbsource/fbobjc/VendorLib/ComponentKit/website/pages/index.js"}}}]);
