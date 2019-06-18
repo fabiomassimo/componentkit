@@ -5,9 +5,9 @@ title: Lifecycle Methods
 [Component controllers](./component-controllers) expose lifecycle methods that allow you to perform custom operations as components mount, unmount, update, and acquire views.
 
 <div class="note">
-  <p>
-    Whenever possible, avoid using lifecycle methods. Think of them as an emergency escape hatch for integrating with stateful code.
-  </p>
+
+Whenever possible, avoid using lifecycle methods. Think of them as an emergency escape hatch for integrating with stateful code.
+
 </div>
 
 ## Ordering
@@ -37,9 +37,9 @@ Remounting occurs when the controller's component is already mounted and either 
 3. `didUnmount`
 
 <div class="note-important">
-  <p>
-    There are no guarantees that the component's children or parents are mounted in <code>willUnmount</code> or <code>componentWillRelinquishView</code>. You <b>must not</b> use <code>CKComponentActionSend</code> or any other method that assumes the component's parents are mounted.
-  </p>
+
+There are no guarantees that the component's children or parents are mounted in `willUnmount` or `componentWillRelinquishView`. You <b>must not</b> use `CKComponentActionSend` or any other method that assumes the component's parents are mounted.
+
 </div>
 
 ### Updating
@@ -59,7 +59,7 @@ Generally views are a hidden implementation detail of ComponentKit, but you may 
 - Interfacing with views that only expose event callbacks via a delegate API. Make the component controller the view's delegate in `componentDidAcquireView` and nil out the view's delegate in `componentWillRelinquishView`.
 
 <div class="note">
-  <p>
-    In your <code>componentDidAcquireView</code> and <code>componentWillRelinquishView</code> implementations you may only reference the view via the component controller's `view` property. Remember, these lifecycle methods are called before the component has finished being mounted. Trying to use the component's view context will not work until the component has been mounted.
-  </p>
+
+In your `componentDidAcquireView` and `componentWillRelinquishView` implementations you may only reference the view via the component controller's `view` property. Remember, these lifecycle methods are called before the component has finished being mounted. Trying to use the component's view context will not work until the component has been mounted.
+
 </div>

@@ -134,7 +134,7 @@ code.redhighlight {
 }
 
 .note-important p:before {
-  content: 'IMPORTANT:';
+  content: 'IMPORTANT: ';
   font-weight: bold;
 }
 

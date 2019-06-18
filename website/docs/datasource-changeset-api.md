@@ -49,9 +49,9 @@ items.insert(insertionIndexPath, @"Hello");
 ## Order in which changes are applied.
 
 <div class="note-important">
- <p>
- The order in which commands are added to the changeset doesn't define the order in which those changes will eventually be applied to the `UICollectionView` (same for `UITableViews`).
- </p>
+
+The order in which commands are added to the changeset doesn't define the order in which those changes will eventually be applied to the `UICollectionView` (same for `UITableViews`).
+
 </div>
 
 Be wary of this fact while computing a changeset, the conventions defined in Cocoa for batch updates are as follows:

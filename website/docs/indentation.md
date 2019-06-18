@@ -9,9 +9,9 @@ Because components are often deeply nested structures, it's rarely possible to f
 - Consider putting a newline after `=` or `return` if it reduces nesting.
 
 <div class="note">
-  <p>
-     These are guidelines, not ironclad rules. Feel free to ignore them on a case-by-case basis.
-  </p>
+
+These are guidelines, not ironclad rules. Feel free to ignore them on a case-by-case basis.
+
 </div>
 
 This is hard to read:
@@ -24,7 +24,7 @@ HeaderComponent *header =
     image:image];
 ```
 
-<p>Much better:</p>
+Much better:
 
 ```objectivec
 HeaderComponent *header =
@@ -37,10 +37,10 @@ HeaderComponent *header =
  image:image];
 ```
 
-<p>Within a statement, indent by only one space.</p>
+Within a statement, indent by only one space.
 
 <div class="note">
-  <p>
-     You never have to indent manually. After inserting newlines as described above, use <code>Ctrl-I</code> (Editor ▶︎ Structure ▶︎ Re-Indent) to make Xcode do the indentation work for you.
-  </p>
+
+You never have to indent manually. After inserting newlines as described above, use `Ctrl-I` (Editor ▶︎ Structure ▶︎ Re-Indent) to make Xcode do the indentation work for you.
+
 </div>

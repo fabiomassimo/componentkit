@@ -17,11 +17,11 @@ items.insert({0, 0}, @"Hello");
 ```
 
 <div class="note">
-  <p>
-  Why not have one section by default? Because implicit/default behaviors can be confusing.
-  If that behavior was implemented as a default but not documented, it would be very confusing when inserting a section at index 0 on a newly created datasource will actually cause it to have two sections (we already have the one created by default).
-  Obviously documentation would make things better but it's easy to miss a piece of documentation...
-  </p>
+
+Why not have one section by default? Because implicit/default behaviors can be confusing.
+If that behavior was implemented as a default but not documented, it would be very confusing when inserting a section at index 0 on a newly created datasource will actually cause it to have two sections (we already have the one created by default).
+Obviously documentation would make things better but it's easy to miss a piece of documentation...
+
 </div>
 
 ## Lifecycle

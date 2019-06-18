@@ -29,9 +29,9 @@ When working with ComponentKit, you would generally uses generic views such as `
 ComponentKit includes a set of debugging tools that help you debug component hierarchies and has strong integration with  [Chisel](http://www.github.com/facebook/chisel). Clone the [github repo](http://www.github.com/facebook/chisel) of Chisel and install it to enable the latest commands.
 
 <div class="note-important">
-  <p>
-    The following functionality is intended for debugging only and is not suitable for use in production.
-  </p>
+
+The following functionality is intended for debugging only and is not suitable for use in production.
+
 </div>
 
 ## Print Component Hierarchy
@@ -72,9 +72,9 @@ Optionally you can use:
 This method takes in a view from where to begin its search and the search can be upwards as well, as shown in this case, it traverses up to find the first view on which there's a component hierarchy attached. Note that this works by finding the view at which the root component is attached and then printing the view hierarchy from there downwards.
 
 <div class="note">
-  <p>
-     Generally, if you run this helper you will be presented with multiple component hierarchies, one each for each visible cell. To get the component hierarchy for the cell you're interested in, type <code>taplog</code> on the console and click on a view in the cell you're interested in - <code>taplog</code> would give you the memory address of that view, which you can copy. Then you can use the helper method with the search upwards functionality to get the hierarchy for the cell you are interested in.
-  </p>
+
+Generally, if you run this helper you will be presented with multiple component hierarchies, one each for each visible cell. To get the component hierarchy for the cell you're interested in, type `taplog` on the console and click on a view in the cell you're interested in - `taplog` would give you the memory address of that view, which you can copy. Then you can use the helper method with the search upwards functionality to get the hierarchy for the cell you are interested in.
+
 </div>
 
 ### `pcomponents`

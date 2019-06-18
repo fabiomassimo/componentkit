@@ -11,9 +11,9 @@ Here is what happens behind the scenes where a changeset is enqueued:
 <img src={withBaseUrl("assets/datasource.png")} alt="Overwiew of the datasource" width ="592" height="654" />
 
 <div class="note">
-  <p>
-    We will use "list view" to refer to either a <code>UICollectionView</code> or a <code>UITableView</code>
-  </p>
+
+We will use "list view" to refer to either a `UICollectionView` or a `UITableView`
+
 </div>
 
 1. A changeset is enqueued in `CKComponentDataSource` (maybe proxied by CKCollectionViewDataSource or another adapter), the CKComponentDataSource updates its internal input state.

@@ -29,9 +29,9 @@ Let's make our UIViewController be the component provider here.
 ```
 
 <div class="note-important">
- <p>
-    This class method has to be pure and thread safe.
- </p>
+
+This class method has to be pure and thread safe.
+
 </div>
 
 - **Why use a class Method and not a block?** The model to component transform should not rely on mutable state. Blocks make it very easy to capture mutable state that could introduce side effects in the system. Using a class method allows to better enforce the constraint of immutability from an API standpoint.
@@ -40,9 +40,9 @@ Let's make our UIViewController be the component provider here.
 	* external dependencies such as an image downloader.
 
 <div class="note-important">
- <p>
+
 Don't access global state inside a Component. Use the context to pass this information instead.
- </p>
+
 </div>
 
 #### Create a `CKCollectionViewDataSource`
@@ -136,7 +136,7 @@ Time to interact with those items now; nothing special here the regular selectio
 ```
 
 <div class="note-important">
- <p>
+
 The datasource is the source of truth for the collection view, if you have to retrieve a model corresponding to an indexPath always use `-modelForItemAtIndexPath`. See this [gotcha](./datasource-gotchas) for more details.
- </p>
+
 </div>

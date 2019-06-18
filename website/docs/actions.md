@@ -99,15 +99,17 @@ Here's an example of how to handle a component action.
 ```
 
 <div class="note-important">
-  <p>
-    Component actions will only be sent up the component responder chain in a mounted component hierarchy. Trying to call send on a responder chain-based action from an unmounted component will raise an assertion. Use a scope-based component action if you need to send an action while not mounted.
-  </p>
+
+Component actions will only be sent up the component responder chain in a mounted component hierarchy. Trying to call send on a responder chain-based action from an unmounted component will raise an assertion. Use a scope-based component action if you need to send an action while not mounted.
+
 </div>
 
+<p></p>
+
 <div class="note-important">
-  <p>
-    <code>CKAction</code> is a C++ object which can lead to subtle problems when a <code>CKAction</code> reference (e.g. <code>CKAction &</code> or <code>const CKAction &</code>) is captured by a block. The reason? C++ references are not managed by ARC, which can result in crashes that are difficult to debug. The best way to avoid this problem is the pass actions by value, or by explicitly creating a copy for use within the block.
-  </p>
+
+`CKAction` is a C++ object which can lead to subtle problems when a `CKAction` reference (e.g. `CKAction &` or `const CKAction &`) is captured by a block. The reason? C++ references are not managed by ARC, which can result in crashes that are difficult to debug. The best way to avoid this problem is the pass actions by value, or by explicitly creating a copy for use within the block.
+
 </div>
 
 ### Why not blocks?
