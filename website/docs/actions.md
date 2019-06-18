@@ -15,10 +15,11 @@ An action may be sent through the `send` function on `CKAction`, which takes the
 For legacy reasons, we also support using `CKComponentActionSend`. The `CKComponentActionSend` function takes an action, a sender, and an optional opaque context object. It follows the [component responder chain](./responder-chain) until it finds a component (or component controller) that responds to the given selector, then sends a message with the sender and context as parameters.
 
 <div class="note-important">
-  <p>
-    <code>CKComponentActionSend</code> must be called on the main thread.
-  </p>
+
+`CKComponentActionSend` must be called on the main thread.
+
 </div>
+
 
 ### Using Component Actions
 
