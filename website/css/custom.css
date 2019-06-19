@@ -2,6 +2,7 @@
   --ifm-color-primary: #00a4b8;
 
   --ifm-navbar-background-color: var(--ifm-color-primary);
+  --ifm-navbar-link-color: white;
   --ifm-navbar-shadow: none;
   --ifm-navbar-link-hover-color: var(--ifm-navbar-link-color);
 

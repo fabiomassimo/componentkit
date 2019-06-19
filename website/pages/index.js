@@ -38,6 +38,7 @@ function Home() {
                     'button button--secondary button--outline button--lg',
                     styles.ctaButtonSecondary,
                   )}
+                  to='https://www.youtube.com/watch?v=mLSeEoC6GjU&feature=youtu.be'
                 >
                   Learn More
                 </Link>
@@ -124,6 +125,29 @@ function Home() {
           <div className="col col--5 col--offset-2 ">
             <div className={styles.featureImageColumn}>
               <img alt="Declarative" src={withBaseUrl('img/recycling.png')} />
+            </div>
+          </div>
+        </div>
+        <div className={classnames('row', 'border', styles.rowBorder)}>
+          <div className="col col--5 padding-vert--lg">
+            <p className={styles.featureHeading}>Also available</p>
+            <h2>Litho – A React-Inspired View Framework for Android</h2>
+            <p className={styles.featureDescription}>
+              Litho takes a functional, declarative approach to building UI.
+            </p>
+            <Link
+              className={classnames(
+                'button button--secondary button--outline button--lg button--litho',
+                styles.ctaButtonLitho,
+              )}
+              to='https://fblitho.com'
+            >
+              Learn More
+            </Link>
+          </div>
+          <div className="col col--5 col--offset-2 ">
+            <div className={styles.featureImageColumn}>
+              <img alt="Litho" src={withBaseUrl('img/litho_logo.png')} />
             </div>
           </div>
         </div>

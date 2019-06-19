@@ -20,6 +20,29 @@
   color: var(--ifm-color-primary) !important;
 }
 
+.ctaButtonLitho {
+  color: white !important;
+  background-color: #ED6B80 !important;
+}
+
+.ctaButtonLitho:hover {
+  color: #ED6B80 !important;
+  background-color: white !important;
+}
+
 .heroTilted {
   clip-path: polygon(0 0, 100% 0, 100% calc(100% - 6vw), 0 100%);
+}
+
+.featureHeading {
+  font-weight: bold;
+  color: #ED6B80;
+}
+
+.rowBorder {
+  border-color: #DADDE1;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 16px;
+  margin-bottom: 20px;
 }
