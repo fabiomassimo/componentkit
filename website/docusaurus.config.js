@@ -14,7 +14,6 @@ const siteConfig = {
       },
       links: [
         { to: 'docs/getting-started', label: 'Docs', position: 'right' },
-        { to: 'support', label: 'Support', position: 'right' },
         {
           href: 'https://github.com/facebook/componentkit',
           label: 'GitHub',
