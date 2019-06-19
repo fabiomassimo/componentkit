@@ -4,7 +4,7 @@ title: Dive Deeper
 
 import withBaseUrl from '@docusaurus/withBaseUrl';
 
-#CKComponentDataSource in details
+## CKComponentDataSource in details
 
 Here is what happens behind the scenes where a changeset is enqueued:
 
@@ -28,13 +28,13 @@ We will use "list view" to refer to either a `UICollectionView` or a `UITableVie
    3. The `CKComponentLifeCycleManager` is then returned to the list view datasource that will mount the component tree on the cell.
    4. Which is then returned to the list view that will display it.
 
-#Use CKComponentDataSource directly
+## Use CKComponentDataSource directly
 
 `CKCollectionViewDataSource` should be sufficient for most uses of ComponentKit with a collection view. If you need more control or want to use a components datasource with a different type of views you can still use `CKComponentDataSource` directly.
 
 Here is an example of usage of `CKComponentDataSource` directly with a UIViewController. You can also go inspect the source code of `CKCollectionViewDataSource` and see how it's done.
 
-## Example: Use it in your ViewController to power a UITableView
+### Example: Use it in your ViewController to power a UITableView
 
 `ComponentsTableViewController.h`
 

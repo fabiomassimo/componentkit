@@ -5,11 +5,11 @@
   overflow: hidden;
   overflow-wrap: break-word;
   white-space: pre-wrap;
-  border-left: 4px solid hsl(99, 100%, 42%);
-  background-color: rgba(90, 140, 140, 0.1);
+  border-left: 4px solid var(--ifm-color-success-light);
+  background-color: var(--ifm-color-secondary-lightest);
 }
 
 .redhighlight {
-  border-left: 4px solid hsl(347, 100%, 50%);
-  background-color: rgba(180, 80, 80, 0.1);
+  border-left: 4px solid var(--ifm-color-danger-light);
+  background-color: var(--ifm-color-danger-lightest);
 }

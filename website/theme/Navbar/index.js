@@ -139,6 +139,15 @@ function Navbar() {
               .map((linkItem, i) => (
                 <NavLink {...linkItem} key={i} />
               ))}
+            <Toggle
+              className={styles.displayOnlyInLargeViewport}
+              aria-label="Dark mode toggle"
+              checked={theme === 'dark'}
+              onChange={onToggleChange}
+              icons={{
+                checked: <Moon />,
+                unchecked: <Sun />,
+              }} />
             {algolia && (
               <div className="navbar__search" key="search-box">
                 <SearchBar />
