@@ -78,7 +78,7 @@ function Home() {
             <p className={styles.featureDescription}>
               ComponentKit can measure and layout your UI ahead of time without
               blocking the UI thread. By decoupling its layout system from the
-              traditional Android View system, ComponentKit can drop the UI
+              traditional UIKit View system, ComponentKit can drop the UI
               thread constraint imposed by iOS.
             </p>
           </div>
